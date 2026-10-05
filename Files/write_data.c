@@ -29,7 +29,7 @@ int main() {
     printf("\nClose file!\n");
     getchar();
 
-    // อ่านข้อมูลจากไฟล์ที่เพิ่งเขียน
+    // read files XD :P and show
     char ch;
     fp = fopen("INFO.txt", "r");
     if (fp == NULL) {
