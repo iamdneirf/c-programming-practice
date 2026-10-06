@@ -9,7 +9,7 @@ struct student{
 int main(){
     FILE *fp;
 
-    fp = fopen("/Users/dneirf/VSCODE/Binary.txt","w");
+    fp = fopen("Binary.txt","w");
     if(fp == NULL){
         printf("Can not open file...");
         return 0;
