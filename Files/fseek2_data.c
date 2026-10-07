@@ -12,7 +12,7 @@ int main(){
     fp = fopen("feek2.txt","wb");
     if(fp == NULL){
     printf("\nCannot open file...\n");
-    return 0;
+    return 1;
     }
     printf("\nOpen file!\n");
 
@@ -36,7 +36,7 @@ int main(){
     fp = fopen("feek2.txt","rb");
     if(fp == NULL){
         printf("\nCannot open FIle...\n");
-        return 0;
+        return 1;
     }
     printf("\nOpen file..\n\n");
     if(fseek(fp,offset,SEEK_CUR) == 0){ //at first I use "> 0" so Yeah, as yall know its wrong TwT
