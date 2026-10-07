@@ -29,7 +29,7 @@ int main(){
     fp = fopen("fseek.txt","rb");
     if(fp == NULL){
         printf("\nCannot open file\n");
-        return 0;
+        return 1;
     }
     printf("\nOpen file\n\n");
 
