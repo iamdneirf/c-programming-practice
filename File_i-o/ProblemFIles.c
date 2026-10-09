@@ -27,12 +27,12 @@ int main(){
             //fwrite(&s[i],sizeof(struct Student),1,fp);
             
         }
-        fwrite(&s,sizeof(struct Student),number,fp);
+        fwrite(s,sizeof(struct Student),number,fp);
         fclose(fp);
 
     }
     else{
-        while(fread(&s[i],sizeof(struct Student),1,fp) == 1){
+        while(fread(&s[i],sizeof(struct Student),1,fp) == 1){ //อ่านทีละคนต้องใส่ Address(RAM memory) TwT 
             i++;
         }
         number = i; //บอกว่ามีกี่คนจากการไป scan อ่านของ fread
@@ -66,7 +66,7 @@ int main(){
 
                 fp = fopen("StRecord.dat","wb");
 
-                fwrite(&s,sizeof(struct Student),1,fp);
+                fwrite(s,sizeof(struct Student),number,fp);
                 fclose(fp);
                 break;
             case 2:
@@ -82,7 +82,7 @@ int main(){
                         number--;
 
                         fp = fopen("StRecord.dat","wb");
-                        fwrite(&s,sizeof(struct Student),1,fp);
+                        fwrite(s,sizeof(struct Student),number,fp); //ถ้าใส่ทีเดียวไม่ต้องใส่(Hard drive)
                         fclose(fp);
                     }
                     else{
