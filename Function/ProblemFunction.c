@@ -10,3 +10,11 @@ int main(){
         printf("Enter message %i: ",i+1); scanf("49%s",str[5][i]);
     }
 }
+
+void swap(char *s1,char *s2){
+    int i;
+    char temp[N];
+    temp[N] = s1[N];
+    s1[N] = s2[N];
+    s2[N] = temp[N];
+}
