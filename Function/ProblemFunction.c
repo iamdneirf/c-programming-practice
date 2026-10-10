@@ -12,7 +12,8 @@ int main(){
     do{
         show_messages(str);
         printf("Which text do you want to swap? (a-b): "); scanf("%i-%i",&a,&b);
-        
+        swap(str[a-1],str[b-1]); //minus 1 because array start at [0]
+
     }while(a >= 1 && b >= 1 && a <=5 && b <=5);
 }
 
