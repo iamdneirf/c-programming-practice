@@ -19,6 +19,8 @@ int main(){
 
     }while(a >= 1 && b >= 1 && a <=5 && b <=5);
     printf("\nExit Program..\n");
+
+    return 0;
 }
 
 void show_messages(char *s){
