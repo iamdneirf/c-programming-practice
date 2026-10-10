@@ -18,3 +18,8 @@ void swap(char *s1,char *s2){
     s1[N] = s2[N];
     s2[N] = temp[N];
 }
+
+void show_messages(char *s){
+    int i;
+    
+}
