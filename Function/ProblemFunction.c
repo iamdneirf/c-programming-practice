@@ -4,10 +4,10 @@ void swap(char *,char *);
 void show_messages(char *);
 
 int main(){
-    int i,a,b;
+    int a,b;
     char str[5][N];
     for(int i = 0; i < 5 ;i++){
-        printf("Enter message %i: ",i+1); scanf("%49s",str[5][i]);
+        printf("Enter message %i: ",i+1); fgets(str[i],50,stdin);
     }
     do{
         show_messages(str);
@@ -15,13 +15,12 @@ int main(){
     }while();
 }
 
-void show_messages(char *s){
-    int i,swap;
+void show_messages(char *){
+    int swap;
     printf("Which text do you want to swap? (a-b): "); scanf("")
 }
 
 void swap(char *s1,char *s2){
-    int i;
     char temp;
     for(int i = 0; i < N; i++){
     temp = s1[i];
