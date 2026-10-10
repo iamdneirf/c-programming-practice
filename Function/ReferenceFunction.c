@@ -9,3 +9,7 @@ int main(){
 
     return 0;
 }
+
+int reference(int *ptr){
+    *ptr = *ptr + 1;
+}
