@@ -10,8 +10,14 @@ int main(){
         printf("Enter message %i: ",i+1); scanf("%49s",str[5][i]);
     }
     do{
-
+        show_messages(str);
+        printf("")
     }while();
+}
+
+void show_messages(char *s){
+    int i,swap;
+    printf("Which text do you want to swap? (a-b): "); scanf("")
 }
 
 void swap(char *s1,char *s2){
@@ -22,9 +28,4 @@ void swap(char *s1,char *s2){
     s1[i] = s2[i];
     s2[i] = temp;
     }
-}
-
-void show_messages(char *s){
-    int i,swap;
-    printf("Which text do you want to swap? (a-b): "); scanf("")
 }
