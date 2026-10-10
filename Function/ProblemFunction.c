@@ -11,13 +11,15 @@ int main(){
     }
     do{
         show_messages(str);
+        printf("Which text do you want to swap? (a-b): "); scanf("%i-%i",&a,&b);
         printf("")
     }while();
 }
 
-void show_messages(char *){
-    int swap;
-    printf("Which text do you want to swap? (a-b): "); scanf("")
+void show_messages(char *s){
+    for(int i = 0; i < 5 ; i++){
+        printf("message %i: %s\n",i+1,s + (i * N));
+    }
 }
 
 void swap(char *s1,char *s2){
