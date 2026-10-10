@@ -12,8 +12,8 @@ int main(){
     do{
         show_messages(str);
         printf("Which text do you want to swap? (a-b): "); scanf("%i-%i",&a,&b);
-        printf("")
-    }while();
+        
+    }while(a >= 1 && b >= 1 && a <=5 && b <=5);
 }
 
 void show_messages(char *s){
