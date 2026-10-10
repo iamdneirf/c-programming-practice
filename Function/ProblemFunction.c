@@ -9,6 +9,9 @@ int main(){
     for(int i = 0; i < N;i++){
         printf("Enter message %i: ",i+1); scanf("49%s",str[5][i]);
     }
+    do{
+
+    }while();
 }
 
 void swap(char *s1,char *s2){
@@ -20,6 +23,6 @@ void swap(char *s1,char *s2){
 }
 
 void show_messages(char *s){
-    int i;
-    
+    int i,swap;
+    printf("Which text do you want to swap? (a-b): "); scanf("")
 }
