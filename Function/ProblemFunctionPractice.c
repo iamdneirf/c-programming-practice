@@ -28,5 +28,11 @@ void show_messages(char *s){
 }
 
 void swap(char *str1,char *str2){
-
+    int i;
+    char temp[N];
+    for(i = 0; i < N; i++){
+        temp[i] = str1[i];
+        str1[i] = str2[i];
+        str2[i] = temp[i];
+    }
 }
