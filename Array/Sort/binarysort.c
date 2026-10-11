@@ -11,7 +11,7 @@ int main(){
 
     bubble_sort(number);
 
-    printf("\nAfer sort: ");
+    printf("Afer sort: ");
     show_number(number);
 
     return 0;
