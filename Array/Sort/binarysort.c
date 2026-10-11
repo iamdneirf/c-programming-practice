@@ -18,6 +18,15 @@ int main(){
 void bubble_sort(int *n){
     int temp;
 
+    for(int i = 0; i < N - 1; i++){
+        for(int j = 0; j < N - 1; j++){
+            if(n[j] > n[j+1]){
+                temp = n[j];
+                n[j] = n[j+1];
+                n[j+1] = temp;
+            }
+        }
+    }
 }
 
 void show_number(int *n){
