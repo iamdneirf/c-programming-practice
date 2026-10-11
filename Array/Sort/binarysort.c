@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define N 10
 void bubble_sort(int *);
-void show_number(int );
+void show_number(int *);
 
 int main(){
     int number[N] = {4,7,53,1,86,1,23,2,21,0};
@@ -20,7 +20,7 @@ void bubble_sort(int *n){
 
 }
 
-void show_number(int n){
+void show_number(int *n){
     for(int i = 0; i < N ; i++){
         printf("%i ",n[i]);
     }
