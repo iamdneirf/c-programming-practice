@@ -17,13 +17,14 @@ int main(){
             break;
         }
         swap(&a,&b);
-
     }
+    printf("\nEND PROGRAM\n");
+    return 0;
 }
 
 void show_messages(char *s){
     for(int i = 0; i < 5; i++){
-        printf("Message %i : %s",i+1,s + (i * N));
+        printf("Message %i : %s\n",i+1,s + (i * N));
     }
 }
 
