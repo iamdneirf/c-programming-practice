@@ -13,6 +13,8 @@ int main(){
 
     printf("\nAfer sort: ");
     show_number(number);
+
+    return 0;
 }
 
 void bubble_sort(int *n){
