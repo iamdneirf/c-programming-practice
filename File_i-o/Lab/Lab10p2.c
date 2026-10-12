@@ -3,7 +3,7 @@ int main(){
     FILE *fp;
     char ch,name[20],surname[20];
     int id;
-    fp = fopen("test.txt","r");
+    fp = fopen("./test.txt","r");
     if(fp == NULL){
         printf("Error \nCannot open file\n");
         fscanf(fp ,"%s %s %d",name,surname,&id);
