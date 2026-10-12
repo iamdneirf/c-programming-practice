@@ -25,11 +25,9 @@ int main(){
             ch = getc(fp);
             }
             printf("\n-------------------------------------------------\n");
-            if (!fclose(fp))
-                printf("\nClose file\n");
-
-            input_student_info(0);
         }
+        fclose(fp);
+        printf("\nClose file\n");
         input_student_info(0);
     }
     else
