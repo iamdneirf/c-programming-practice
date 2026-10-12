@@ -4,7 +4,7 @@ int main(){
     char ch,name[20],surname[20];
     int id;
     fp = fopen("test.txt","r");
-    if(fp == NULL){
+    if(fp != NULL){
         printf("Error \nCan open file\n");
         fscanf(fp ,"%s %s %d",name,surname,&id);
         if(!fclose(fp))
