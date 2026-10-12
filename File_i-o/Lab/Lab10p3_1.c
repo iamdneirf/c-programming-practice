@@ -8,21 +8,28 @@ int main(){
     char ch;
     fp = fopen("DataRecord.txt","r");
     if(fp != NULL){
-        printf("Can open file (read)\n");
-        printf("---------------------------------------\n");
-        printf("|             Data in file             |\n");
-        printf("---------------------------------------\n");
         ch = getc(fp);
-        while (ch != EOF)
-        {
+        if(ch == EOF){
+            printf("File is empty\n");
+        }
+        else{
+            
+            printf("Can open file (read)\n");
+            printf("---------------------------------------\n");
+            printf("|             Data in file             |\n");
+            printf("---------------------------------------\n");
+            //ch = getc(fp);
+            while (ch != EOF)
+            {
             printf("%c",ch);
             ch = getc(fp);
-        }
-        printf("\n-------------------------------------------------\n");
-        if (!fclose(fp))
-            printf("\nClose file\n");
+            }
+            printf("\n-------------------------------------------------\n");
+            if (!fclose(fp))
+                printf("\nClose file\n");
 
-        input_student_info(0);
+            input_student_info(0);
+        }
     }
     else
         input_student_info(1);
@@ -42,4 +49,5 @@ void input_student_info(int mode){
     printf("Enter Name      : "); scanf("%s",name);
     printf("Enter Surname   : "); scanf("%s",surname);
     fprintf(fp,"%s %s %d\n",name,surname,id);
+    fclose(fp);
 }
