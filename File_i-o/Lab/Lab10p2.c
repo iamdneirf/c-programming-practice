@@ -3,9 +3,9 @@ int main(){
     FILE *fp;
     char ch,name[20],surname[20];
     int id;
-    fp = fopen("./test.txt","r");
+    fp = fopen("/Users/dneirf/VSCODE/c-programming-practice/File_i-o/Lab/test.txt","r");
     if(fp == NULL){
-        printf("Error \nCannot open file\n");
+        printf("Error \nCan open file\n");
         fscanf(fp ,"%s %s %d",name,surname,&id);
         if(!fclose(fp))
             printf("\nClose file\n");
