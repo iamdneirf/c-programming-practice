@@ -6,9 +6,9 @@ void input_student_info(int);
 
 int main(){
     char ch;
-    fp = fopen("DataRecord",'r');
+    fp = fopen("DataRecord.txt","r");
     if(fp != NULL){
-        printf("Can open file\n");
+        printf("Can open file (read)\n");
         printf("---------------------------------------\n");
         printf("|             Data in file             |\n");
         printf("---------------------------------------\n");
