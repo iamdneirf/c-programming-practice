@@ -30,6 +30,7 @@ int main(){
 
             input_student_info(0);
         }
+        input_student_info(0);
     }
     else
         input_student_info(1);
