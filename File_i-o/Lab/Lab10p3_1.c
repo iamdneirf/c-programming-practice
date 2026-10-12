@@ -28,3 +28,18 @@ int main(){
         input_student_info(1);
         return 0;
 }
+
+void input_student_info(int mode){
+    if(mode){
+        fp = fopen("DataRecord.txt","w");
+        printf("Can open file (overwrite)\n");
+    }
+    else{
+        fp = fopen("DataRecord.txt","a");
+        printf("Can open file (append)\n");
+    }
+    printf("Enter ID        : "); scanf("%i",&id);
+    printf("Enter Name      : "); scanf("%s",name);
+    printf("Enter Surname   : "); scanf("%s",surname);
+    fprintf(fp,"%s %s %d\n",name,surname,id);
+}
