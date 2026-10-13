@@ -31,6 +31,7 @@ int main(){
         input_student_info(0);
     }
     int choice;
+    fp = fopen("DataRecord.txt","rb");
         printf("-----------------------------\n");
         printf("          = Menu =           \n");
         printf("-----------------------------\n");
