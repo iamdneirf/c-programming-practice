@@ -39,7 +39,7 @@ int main(){
         printf("1. Display all students\n");
         printf("2. Display specific student by index\n");
         printf("3. Add student\n");
-        printf("0. Exit Program");
+        printf("0. Exit Program\n");
         printf("Enter the number (1,2,3,0) : "); scanf("%i",&choice);
 
         switch (choice){
