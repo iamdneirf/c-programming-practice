@@ -6,7 +6,7 @@ struct student{
     char name[20];
     char surname[20];
     int ID;
-}s[100];
+}s;
 void input_student_info(int);
 void display_all_students(int);
 void display_student_by_index(int);
@@ -60,7 +60,7 @@ void input_student_info(int a){
         printf("Lets creating the file!");
         fp = fopen("DataRecord.txt","wb");
     }
-
+    printf("Enter the name: "); scanf("%s",)
 }
 
 void display_all_students(int a){
