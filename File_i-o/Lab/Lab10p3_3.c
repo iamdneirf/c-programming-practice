@@ -26,6 +26,7 @@ int main(){
         printf("1. Display all students\n");
         printf("2. Display specific student by index\n");
         printf("3. Add student\n");
+        printf("Enter the number (1,2,3) : "); scanf("%i",&choice);
     }
 }
 
