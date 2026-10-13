@@ -92,9 +92,10 @@ void display_all_students(int a){
 }
 
 void display_student_by_index(int){
-    int select;
+    int select,offset;
     fp = fopen("DataRecord.txt","rb");
     printf("Select student by number of line: "); scanf("%i",&select);
     select--;
+    offset = select*sizeof(struct student);
     
 }
