@@ -15,10 +15,15 @@ int main(){
 
     fp = fopen("DataRecord.txt","rb");
     ch = getc(fp);
-    if(ch == EOF){
-        printf("This file is empty...\n");
+    if(fp != NULL){
+        if(ch == EOF){
+            printf("This file is empty...\n");
         fclose(fp);
         input_student_info(1);
+        }
+        else{
+
+        }
     }
     else{
         printf("\nCannot open file\n");
