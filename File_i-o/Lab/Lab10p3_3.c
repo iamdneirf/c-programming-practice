@@ -90,10 +90,10 @@ void display_all_students(int a){
         int count = 0;
 
         while(fread(&s,sizeof(struct student),1,fp) == 1){
-            printf("%-5i %-10s %-10s %-5i",count+1,s.name,s.surname,s.ID);
+            printf("%-5i %-10s %-10s %-5i\n",count+1,s.name,s.surname,s.ID);
             count++;
         }
-        printf("-----------------------------\n");
+        printf("\n=============================\n");
         fclose(fp);
 }
 
