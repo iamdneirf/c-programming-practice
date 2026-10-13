@@ -11,3 +11,7 @@ void input_student_info(int);
 int main(){
     
 }
+
+void input_student_intfo(int a){
+    
+}
