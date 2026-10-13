@@ -21,7 +21,9 @@ int main(){
         input_student_info(1);
     }
     else{
-        int choice;
+        
+    }
+    int choice;
         printf("-----------------------------\n");
         printf("          = Menu =           \n");
         printf("-----------------------------\n");
@@ -45,7 +47,7 @@ int main(){
             break;
 
         }
-    }
+
 }
 
 void input_student_info(int a){
