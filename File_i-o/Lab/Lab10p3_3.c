@@ -28,6 +28,22 @@ int main(){
         printf("2. Display specific student by index\n");
         printf("3. Add student\n");
         printf("Enter the number (1,2,3) : "); scanf("%i",&choice);
+
+        switch (choice){
+
+        case 1:
+            display_all_students();
+            break;
+        case 2:
+            display_student_by_index();
+            break;
+        case 3:
+            input_student_info();
+            break;
+        default:
+            break;
+            
+        }
     }
 }
 
