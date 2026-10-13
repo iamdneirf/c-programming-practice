@@ -30,7 +30,10 @@ int main(){
         //fclose(fp);
         input_student_info(0);
     }
+
     int choice;
+    do{
+    
     fp = fopen("DataRecord.txt","rb");
         printf("-----------------------------\n");
         printf("          = Menu =           \n");
@@ -56,6 +59,7 @@ int main(){
             break;
 
         }
+    }while(choice != 0);
 
 }
 
