@@ -7,6 +7,8 @@ struct student{
     int ID;
 };
 void input_student_info(int);
+void display_all_students(int);
+void display_student_by_index(int);
 
 int main(){
     char ch;
