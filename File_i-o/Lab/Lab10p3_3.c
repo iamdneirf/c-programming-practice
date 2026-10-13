@@ -37,15 +37,16 @@ int main(){
         switch (choice){
 
         case 1:
-            display_all_students();
+            display_all_students(1);
             break;
         case 2:
-            display_student_by_index();
+            display_student_by_index(1);
             break;
         case 3:
-            input_student_info();
+            input_student_info(1);
             break;
         default:
+            printf("\nInvalid input\n");
             break;
 
         }
