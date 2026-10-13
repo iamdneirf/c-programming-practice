@@ -104,7 +104,7 @@ void display_student_by_index(int){
     printf("Select student by number of line: "); scanf("%i",&select);
     select--;
     offset = select*sizeof(struct student);
-    fseek(fp,offset,SEEK_CUR);
+    fseek(fp,offset,SEEK_SET);
     fread(&s,sizeof(struct student),1,fp);
     printf("%-5i %-10s %-10s %-5i",select+1,s.name,s.surname,s.ID);
     fclose(fp);
