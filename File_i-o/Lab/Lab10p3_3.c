@@ -20,6 +20,7 @@ int main(){
         input_student_info(1);
     }
     else{
+        int choice;
         printf("-----------------------------\n");
         printf("          = Menu =           \n");
         printf("-----------------------------\n");
