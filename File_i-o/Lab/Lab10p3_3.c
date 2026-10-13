@@ -6,7 +6,7 @@ struct student{
     char name[20];
     char surname[20];
     int ID;
-};
+}s[100];
 void input_student_info(int);
 void display_all_students(int);
 void display_student_by_index(int);
@@ -42,7 +42,7 @@ int main(){
             break;
         default:
             break;
-            
+
         }
     }
 }
