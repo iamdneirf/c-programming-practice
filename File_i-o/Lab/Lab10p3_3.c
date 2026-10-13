@@ -74,6 +74,7 @@ void input_student_info(int a){
     printf("Enter ID: "); scanf("%i",&s.ID);
     fwrite(&s,sizeof(struct student),1,fp);
     fclose(fp);
+    printf("Save successfully!\n");
 }
 
 void display_all_students(int a){
