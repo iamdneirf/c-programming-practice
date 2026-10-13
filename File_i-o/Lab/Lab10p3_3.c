@@ -12,7 +12,7 @@ void display_all_students(int);
 void display_student_by_index(int);
 
 int main(){
-    
+
     fp = fopen("DataRecord.txt","rb");
     ch = getc(fp);
     if(ch == EOF){
@@ -20,7 +20,12 @@ int main(){
         input_student_info(1);
     }
     else{
-        
+        printf("-----------------------------\n");
+        printf("          = Menu =           \n");
+        printf("-----------------------------\n");
+        printf("1. Display all students\n");
+        printf("2. Display specific student by index\n");
+        printf("3. Add student\n");
     }
 }
 
