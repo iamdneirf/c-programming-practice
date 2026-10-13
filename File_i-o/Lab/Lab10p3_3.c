@@ -25,7 +25,7 @@ int main(){
 }
 
 void display_all_students(int a){
-    printf("-----------------------------\n");
+        printf("-----------------------------\n");
         printf("|           Data            |\n");
         printf("-----------------------------\n");
         while(ch != EOF){
