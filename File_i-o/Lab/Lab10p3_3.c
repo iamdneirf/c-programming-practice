@@ -88,6 +88,7 @@ void display_all_students(int a){
             count++;
         }
         printf("-----------------------------\n");
+        fclose(fp);
 }
 
 void display_student_by_index(int){
