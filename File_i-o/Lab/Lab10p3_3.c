@@ -81,9 +81,11 @@ void display_all_students(int a){
         printf("-----------------------------\n");
         printf("|           Data            |\n");
         printf("-----------------------------\n");
-        while(ch != EOF){
-            printf("%c",&ch);
-            ch = getc(fp);
+        int count = 0;
+
+        while(fread(&s,sizeof(struct student),1,fp) == 1){
+            printf("%-5i %-10s %-10s %-5i",count+1,s.name,s.surname,s.ID);
+            count++;
         }
         printf("-----------------------------\n");
 }
