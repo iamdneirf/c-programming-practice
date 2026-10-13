@@ -61,7 +61,8 @@ int main(){
 
         }
     }while(choice != 0);
-
+        printf("\nExit Program!\n");
+        return 0;
 }
 
 void input_student_info(int a){
