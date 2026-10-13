@@ -21,7 +21,8 @@ int main(){
         input_student_info(1);
     }
     else{
-        
+        printf("\nCannot open file\n");
+        input_student_info(0);
     }
     int choice;
         printf("-----------------------------\n");
