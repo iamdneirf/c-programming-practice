@@ -92,7 +92,7 @@ void display_all_students(int a){
             printf("%-5i %-10s %-10s %-5i\n",count+1,s.name,s.surname,s.ID);
             count++;
         }
-        printf("\n=============================\n");
+        printf("=============================\n");
         fclose(fp);
 }
 
