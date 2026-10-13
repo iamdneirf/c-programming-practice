@@ -98,5 +98,5 @@ void display_student_by_index(int){
     select--;
     offset = select*sizeof(struct student);
     fseek(fp,offset,SEEK_CUR);
-    
-}
+    fread(&s,sizeof(struct student),1,fp);
+    printf("%-5i %-10s %-10s %-5i",select+1,s.name,s.surname,s.ID);
