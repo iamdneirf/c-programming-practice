@@ -27,5 +27,10 @@ int main(){
 }
 
 void input_student_intfo(int a){
-
+    if(a){
+        printf("Lets write it down!\n");
+    }
+    else{
+        printf("Lets creating the file!");
+    }
 }
