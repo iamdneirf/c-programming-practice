@@ -33,8 +33,6 @@ int main(){
 
     int choice;
     do{
-    
-    fp = fopen("DataRecord.txt","rb");
         printf("-----------------------------\n");
         printf("          = Menu =           \n");
         printf("-----------------------------\n");
