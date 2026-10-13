@@ -97,5 +97,6 @@ void display_student_by_index(int){
     printf("Select student by number of line: "); scanf("%i",&select);
     select--;
     offset = select*sizeof(struct student);
+    fseek(fp,offset,SEEK_CUR);
     
 }
