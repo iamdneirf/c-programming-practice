@@ -47,6 +47,15 @@ int main(){
     }
 }
 
+void input_student_info(int a){
+    if(a){
+        printf("Lets write it down!\n");
+    }
+    else{
+        printf("Lets creating the file!");
+    }
+}
+
 void display_all_students(int a){
         printf("-----------------------------\n");
         printf("|           Data            |\n");
@@ -56,13 +65,4 @@ void display_all_students(int a){
             ch = getc(fp);
         }
         printf("-----------------------------\n");
-}
-
-void input_student_info(int a){
-    if(a){
-        printf("Lets write it down!\n");
-    }
-    else{
-        printf("Lets creating the file!");
-    }
 }
