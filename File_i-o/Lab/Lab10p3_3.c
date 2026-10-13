@@ -53,13 +53,15 @@ int main(){
         case 3:
             input_student_info(1);
             break;
+        case 0:
+            printf("\nExit Program!\n");
+            break;
         default:
             printf("\nInvalid input\n");
             break;
 
         }
     }while(choice != 0);
-        printf("\nExit Program!\n");
         return 0;
 }
 
