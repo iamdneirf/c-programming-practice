@@ -14,6 +14,7 @@ int main(){
     fp = fopen("DataRecord.txt","rb");
     if(ch == EOF){
         printf("This file is empty...\n");
+        input_student_info(1);
     }
     else{
         printf("-----------------------------\n");
