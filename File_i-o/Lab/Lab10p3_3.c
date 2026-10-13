@@ -89,6 +89,7 @@ void display_all_students(int a){
         printf("-----------------------------\n");
         int count = 0;
 
+        fp = fopen("DataRecord.txt","rb");
         while(fread(&s,sizeof(struct student),1,fp) == 1){
             printf("%-5i %-10s %-10s %-5i\n",count+1,s.name,s.surname,s.ID);
             count++;
