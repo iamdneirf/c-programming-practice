@@ -10,6 +10,7 @@ void input_student_info(int);
 
 int main(){
     char ch;
+    ch = getc(fp);
     fp = fopen("DataRecord.txt","rb");
     if(ch == EOF){
         printf("This file is empty...\n");
