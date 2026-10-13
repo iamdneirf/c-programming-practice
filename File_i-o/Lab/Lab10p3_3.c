@@ -59,6 +59,7 @@ void input_student_info(int a){
     else{
         printf("Lets creating the file!");
         fp = fopen("DataRecord.txt","wb");
+        fclose(fp);
     }
     printf("Enter name: "); scanf("%19s",s.name);
     printf("Enter surname: "); scanf("%19s",s.surname);
