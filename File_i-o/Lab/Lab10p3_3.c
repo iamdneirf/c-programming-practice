@@ -58,6 +58,7 @@ void input_student_info(int a){
     }
     else{
         printf("Lets creating the file!");
+        fp = fopen("DataRecord.txt","wb");
     }
 
 }
