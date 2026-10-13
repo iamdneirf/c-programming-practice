@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 FILE *fp;
+char ch;
 struct student{
     char name[20];
     char surname[20];
@@ -11,7 +12,7 @@ void display_all_students(int);
 void display_student_by_index(int);
 
 int main(){
-    char ch;
+    
     fp = fopen("DataRecord.txt","rb");
     ch = getc(fp);
     if(ch == EOF){
@@ -19,7 +20,12 @@ int main(){
         input_student_info(1);
     }
     else{
-        printf("-----------------------------\n");
+        
+    }
+}
+
+void display_all_students(int a){
+    printf("-----------------------------\n");
         printf("|           Data            |\n");
         printf("-----------------------------\n");
         while(ch != EOF){
@@ -27,7 +33,6 @@ int main(){
             ch = getc(fp);
         }
         printf("-----------------------------\n");
-    }
 }
 
 void input_student_info(int a){
