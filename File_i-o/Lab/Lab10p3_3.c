@@ -27,7 +27,7 @@ int main(){
     }
     else{
         printf("\nCannot open file\n");
-        fclose(fp);
+        //fclose(fp);
         input_student_info(0);
     }
     int choice;
