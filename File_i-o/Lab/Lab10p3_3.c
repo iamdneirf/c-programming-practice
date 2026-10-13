@@ -21,9 +21,6 @@ int main(){
         fclose(fp);
         input_student_info(1);
         }
-        else{
-
-        }
     }
     else{
         printf("\nCannot open file\n");
