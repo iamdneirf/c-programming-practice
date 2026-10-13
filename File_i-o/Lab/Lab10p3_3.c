@@ -26,7 +26,7 @@ int main(){
     }
 }
 
-void input_student_intfo(int a){
+void input_student_info(int a){
     if(a){
         printf("Lets write it down!\n");
     }
