@@ -24,6 +24,7 @@ int main(){
             printf("%c",&ch);
             ch = getc(fp);
         }
+        printf("-----------------------------\n");
     }
 }
 
