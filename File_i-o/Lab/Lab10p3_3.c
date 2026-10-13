@@ -59,7 +59,7 @@ void input_student_info(int a){
     else{
         printf("Lets creating the file!");
     }
-    for(for i = 0; i <);
+
 }
 
 void display_all_students(int a){
