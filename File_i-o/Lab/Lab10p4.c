@@ -80,7 +80,7 @@ void input_student_info(int a){
     fclose(fp);
 }
 
-void display_all_student(int){
+void display_all_student(int a){
     printf("=-=-=-=-=-=- Data =-=-=-=-=-=-\n");
     fp = fopen("StRecord.txt","rb");
     for(int i = 0 ; i < number_of_student; i++){
@@ -90,7 +90,7 @@ void display_all_student(int){
     fclose(fp);
 }
 
-void display_by_index(int){
+void display_by_index(int a){
     int select,offset;
     printf("Select student by index: "); scanf("%i",&select);
     offset = select*sizeof(struct student);
