@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void bbsort(int *);
 
 int main(){
@@ -10,4 +11,8 @@ int main(){
         printf("Enter number%i: ",i+1); scanf("%i",number[i]);
     }
     return 0;
+}
+
+void bbsort(int *a){
+
 }
