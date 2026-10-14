@@ -32,5 +32,6 @@ void input_student_info(int a){
     }
     else{
         printf("creating file....\n");
+        fp = fopen("StRecord.txt","wb");
     }
 }
