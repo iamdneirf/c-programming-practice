@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void show_all(int);
+void show_all(int *);
 void bbsort(int *);
 int N;
 
@@ -13,7 +13,10 @@ int main(){
         printf("Enter number%i: ",i+1); scanf("%i",number[i]);
     }
     printf("Before sort: ");
+    show_all(number);
     bbsort(number);
+    printf("After sort: ");
+    show_all(number);
     return 0;
 }
 
@@ -30,6 +33,8 @@ void bbsort(int *a){
     }
 }
 
-void show_all(int b){
-    
+void show_all(int *b){
+    for(int i = 0; i < N; i++){
+        pritnf("%i ",&b[i]);
+    }
 }
