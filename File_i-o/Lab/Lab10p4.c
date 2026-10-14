@@ -106,7 +106,7 @@ void display_by_index(int a){
     if(fseek(fp,offset,SEEK_SET) == 0){
         fread(&temp,sizeof(struct student),1,fp);
         printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
-        printf("%-4i. %-8s %-8s %-4i\n",select,s[0].name,s[0].surname,s[0].id);
+        printf("%-4i. %-8s %-8s %-4i\n",select,temp.name,temp.surname,temp.id);
         printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
     }
     fclose(fp);
