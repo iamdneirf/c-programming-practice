@@ -65,7 +65,7 @@ int main(){
 }
 
 void input_student_info(int a){
-    if(1){
+    if(a){
         printf("Lets add student!\n");
     }
     else{
