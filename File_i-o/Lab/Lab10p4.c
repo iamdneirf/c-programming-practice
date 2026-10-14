@@ -25,7 +25,7 @@ int main(){
         else{
             fseek(fp,0,SEEK_SET);
             int i = 0;
-            while(fread(&s[i],sizeof(struct student),1,fp) == 1){
+            while(fread(&s[i],sizeof(struct student),1,fp) == 1){ //ไล่อ่านทีละช่อง
                 i++;
             }
             number_of_student = i;
