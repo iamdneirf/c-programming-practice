@@ -1,7 +1,6 @@
 #include <stdio.h>
 #define N 30
 FILE *fp;
-int number_of_student;
 struct student{
     char name[20];
     char surname[20];
@@ -28,7 +27,6 @@ int main(){
 }
 
 void input_student_info(int a){
-    printf("Enter number of student : "); scanf("%i",&number_of_student);
     if(1){
         printf("Lets add student!\n");
     }
@@ -36,5 +34,5 @@ void input_student_info(int a){
         printf("creating file....\n");
         fp = fopen("StRecord.txt","wb");
     }
-    
+    printf("Enter the name: "); scanf("%s",);
 }
