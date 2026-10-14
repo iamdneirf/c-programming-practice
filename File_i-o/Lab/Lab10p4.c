@@ -13,15 +13,15 @@ int main(){
     fp = fopen("StRecord.txt","rb");
     ch = getc(fp);
     if(fp != NULL){
-        if(ch == NULL){
-
+        if(ch == EOF){
+            
         }
         else{
 
         }
     }
     else{
-        
+
     }
 }
 
