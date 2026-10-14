@@ -17,6 +17,7 @@ int main(){
         if(ch == EOF){
             printf("\nThis file is empty\n");
             fclose(fp);
+            input_student_info(1);
         }
         else{
 
