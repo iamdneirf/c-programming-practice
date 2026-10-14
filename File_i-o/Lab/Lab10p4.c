@@ -24,7 +24,7 @@ int main(){
         }
         else{
             int i = 0;
-            while(fread(s,sizeof(struct student),number_of_student,fp) == 1){
+            while(fread(s,sizeof(struct student),1,fp) == 1){
                 i++;
             }
             number_of_student = i;
