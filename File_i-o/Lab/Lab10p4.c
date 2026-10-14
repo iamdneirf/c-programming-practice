@@ -1,6 +1,7 @@
 #include <stdio.h>
 #define N 30
 FILE *fp;
+int number_of_student;
 struct student{
     char name[20];
     char surname[20];
