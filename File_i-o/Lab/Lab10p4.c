@@ -23,7 +23,7 @@ int main(){
         }
     }
     else{
-
+        input_student_info(0);
     }
 }
 
