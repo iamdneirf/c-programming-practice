@@ -26,6 +26,7 @@ int main(){
                 i++;
             }
             number_of_student = i;
+            fclose(fp);
         }
     }
     else{
