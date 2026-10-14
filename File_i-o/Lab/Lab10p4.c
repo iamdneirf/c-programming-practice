@@ -27,5 +27,10 @@ int main(){
 }
 
 void input_student_info(int a){
-
+    if(1){
+        printf("Lets add student!\n");
+    }
+    else{
+        printf("creating file....\n");
+    }
 }
