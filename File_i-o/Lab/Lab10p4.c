@@ -40,7 +40,7 @@ int main(){
             printf("1. Display all Student\n");
             printf("2. Display specific student by index\n");
             printf("3. Add student\n");
-            printf("0. Exit Program");
+            printf("0. Exit Program\n");
             printf("Select number : "); scanf("%i",&choice);
 
             switch (choice)
