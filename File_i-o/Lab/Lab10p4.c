@@ -94,7 +94,7 @@ void display_all_student(int a){
 void display_by_index(int a){
     int select,offset;
     printf("Select student by index: "); scanf("%i",&select);
-    offset = select-1*sizeof(struct student);
+    offset = (select-1)*sizeof(struct student);
 
     fp = fopen("StRecord.txt","rb");
     if(fseek(fp,offset,SEEK_SET) == 0){
