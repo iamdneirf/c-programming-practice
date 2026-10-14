@@ -20,7 +20,10 @@ int main(){
             input_student_info(1);
         }
         else{
-
+            printf("============= MENU =============");
+            printf("1. Display all Student\n");
+            printf("2. Display specific student by index\n");
+            printf("3. Add student\n");
         }
     }
     else{
