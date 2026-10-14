@@ -81,3 +81,7 @@ void display_all_student(int){
     }
     fclose(fp);
 }
+
+void display_by_index(int){
+    
+}
