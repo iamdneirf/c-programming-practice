@@ -87,6 +87,7 @@ void display_by_index(int){
     printf("Select student by index: "); scanf("%i",&select);
     offset = select*sizeof(struct student);
     if(fseek(fp,offset,SEEK_SET) == 0){
+        fread(s,sizeof(struct student),1,fp);
         
     }
 }
