@@ -14,7 +14,8 @@ int main(){
     ch = getc(fp);
     if(fp != NULL){
         if(ch == EOF){
-            
+            printf("\nThis file is empty\n");
+            fclose(fp);
         }
         else{
 
