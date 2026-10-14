@@ -7,6 +7,7 @@ struct student{
     int id;
 }s[N];
 
+void input_student_info(int);
 int main(){
 
 }
