@@ -35,7 +35,7 @@ int main(){
         input_student_info(0);
     }
     do{
-    printf("============= MENU =============");
+    printf("============= MENU =============\n");
             printf("1. Display all Student\n");
             printf("2. Display specific student by index\n");
             printf("3. Add student\n");
