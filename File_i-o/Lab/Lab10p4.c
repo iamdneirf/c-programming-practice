@@ -11,6 +11,7 @@ void input_student_info(int);
 
 int main(){
     char ch;
+    int choice;
     fp = fopen("StRecord.txt","rb");
     ch = getc(fp);
     if(fp != NULL){
@@ -24,6 +25,8 @@ int main(){
             printf("1. Display all Student\n");
             printf("2. Display specific student by index\n");
             printf("3. Add student\n");
+            printf("0. Exit Program");
+            printf("Select number : "); scanf("%i",&choice);
         }
     }
     else{
