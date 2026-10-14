@@ -88,7 +88,7 @@ void display_all_student(int a){
     int i = 0;
 
     while(fread(&s[i],sizeof(struct student),1,fp) == 1){
-        printf("%-4i. %-8s %-8s %-4i\n",i+1,s[i].name,s[i].surname,s[i].id);
+        printf("No.%-4i %-8s %-8s %-4i\n",i+1,s[i].name,s[i].surname,s[i].id);
         i++;
     }
 
