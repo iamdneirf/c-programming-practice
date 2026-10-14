@@ -10,7 +10,7 @@ int main(){
     int number[N];
     for(int i = 0; i < N; i++){
         printf("Enter the number to sort %i times\n",N); 
-        printf("Enter number%i: ",i+1); scanf("%i",number[i]);
+        printf("Enter number%i: ",i+1); scanf("%i",&number[i]);
     }
     printf("Before sort: ");
     show_all(number);
@@ -35,6 +35,6 @@ void bbsort(int *a){
 
 void show_all(int *b){
     for(int i = 0; i < N; i++){
-        pritnf("%i ",&b[i]);
+        printf("%i ",b[i]);
     }
 }
