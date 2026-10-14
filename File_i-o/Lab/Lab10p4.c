@@ -21,8 +21,11 @@ int main(){
             input_student_info(1);
         }
         else{
-            
-
+            int i = 0;
+            while(fread(s,sizeof(struct student),number_of_student,fp) == 1){
+                i++;
+            }
+            number_of_student = i;
         }
     }
     else{
