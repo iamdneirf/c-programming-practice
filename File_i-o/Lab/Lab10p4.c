@@ -74,5 +74,9 @@ void input_student_info(int a){
 }
 
 void display_all_student(int){
-    
+    printf("=-=-=-=-=-=- Data =-=-=-=-=-=-\n");
+    fp = fopen("StRecord.txt","rb");
+    for(int i = 0 ; i < number_of_student; i++){
+        printf("%-4i. %-8s %-8s %-4i",i+1,s[i].name,s[i].surname,s[i].id);
+    }
 }
