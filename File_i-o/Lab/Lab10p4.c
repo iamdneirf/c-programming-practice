@@ -28,12 +28,13 @@ int main(){
 }
 
 void input_student_info(int a){
+    printf("Enter number of student : "); scanf("%i",&number_of_student);
     if(1){
         printf("Lets add student!\n");
     }
     else{
         printf("creating file....\n");
-        printf("Enter number of student : "); scanf("%i",&number_of_student);
         fp = fopen("StRecord.txt","wb");
     }
+    
 }
