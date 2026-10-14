@@ -86,6 +86,7 @@ void display_all_student(int){
     for(int i = 0 ; i < number_of_student; i++){
         printf("%-4i. %-8s %-8s %-4i\n",i+1,s[i].name,s[i].surname,s[i].id);
     }
+    printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
     fclose(fp);
 }
 
@@ -93,7 +94,7 @@ void display_by_index(int){
     int select,offset;
     printf("Select student by index: "); scanf("%i",&select);
     offset = select*sizeof(struct student);
-    
+
     fp = fopen("StRecord.txt","rb");
     if(fseek(fp,offset,SEEK_SET) == 0){
         fread(s,sizeof(struct student),1,fp);
