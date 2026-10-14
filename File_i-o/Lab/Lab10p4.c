@@ -72,3 +72,7 @@ void input_student_info(int a){
     fwrite(s,sizeof(struct student),1,fp);
     fclose(fp);
 }
+
+void display_all_student(int){
+    
+}
