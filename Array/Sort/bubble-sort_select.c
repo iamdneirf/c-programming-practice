@@ -29,3 +29,7 @@ void bbsort(int *a){
         }
     }
 }
+
+void show_all(int b){
+    
+}
