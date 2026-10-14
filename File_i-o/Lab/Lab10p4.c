@@ -88,6 +88,7 @@ void display_by_index(int){
     offset = select*sizeof(struct student);
     if(fseek(fp,offset,SEEK_SET) == 0){
         fread(s,sizeof(struct student),1,fp);
-        
+        printf("%-4i. %-8s %-8s %-4i\n",select,s[select-1].name,s[select-1].surname,s[select-1].id);
     }
+    fclose(fp);
 }
