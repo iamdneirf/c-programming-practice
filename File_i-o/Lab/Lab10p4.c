@@ -57,6 +57,7 @@ int main(){
                 printf("\nEXIT PROGRAM!\n");
                 break;
             default:
+                printf("\nInvalid input\n");
                 break;
             }
     }
