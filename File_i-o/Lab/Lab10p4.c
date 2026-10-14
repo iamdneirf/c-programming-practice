@@ -34,7 +34,7 @@ int main(){
     else{
         input_student_info(0);
     }
-    while(1){
+    do{
     printf("============= MENU =============");
             printf("1. Display all Student\n");
             printf("2. Display specific student by index\n");
@@ -60,7 +60,7 @@ int main(){
                 printf("\nInvalid input\n");
                 break;
             }
-    }
+    }while(choice != 0);
     return 0;
 }
 
