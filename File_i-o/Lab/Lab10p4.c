@@ -36,6 +36,7 @@ void input_student_info(int a){
         printf("creating file....\n");
     }
     fp = fopen("StRecord.txt","wb");
+    printf("----------------Student No.%i----------------\n",number_of_student+1);
     printf("Enter name: "); scanf("%s",s[number_of_student].name);
     printf("Enter surname: "); scanf("%s",s[number_of_student].surname);
     printf("Enter ID: "); scanf("%i",&s[number_of_student].id);
