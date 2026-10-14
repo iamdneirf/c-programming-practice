@@ -8,6 +8,8 @@ struct student{
     int id;
 }s[N];
 void input_student_info(int);
+void display_all_student(int);
+void display_by_index(int);
 
 int main(){
     char ch;
