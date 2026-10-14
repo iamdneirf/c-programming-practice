@@ -23,6 +23,7 @@ int main(){
             input_student_info(1);
         }
         else{
+            fseek(fp,0,SEEK_SET);
             int i = 0;
             while(fread(s,sizeof(struct student),1,fp) == 1){
                 i++;
