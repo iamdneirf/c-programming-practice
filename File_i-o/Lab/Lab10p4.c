@@ -9,6 +9,7 @@ struct student{
 
 void input_student_info(int);
 int main(){
+    fp = fopen("StRecord.txt","rb");
     
 }
 
