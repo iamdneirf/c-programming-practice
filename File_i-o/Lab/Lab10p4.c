@@ -94,12 +94,13 @@ void display_all_student(int a){
 
 void display_by_index(int a){
     int select,offset;
+    struct student temp;
     printf("Select student by index: "); scanf("%i",&select);
     offset = (select-1)*sizeof(struct student);
 
     fp = fopen("StRecord.txt","rb");
     if(fseek(fp,offset,SEEK_SET) == 0){
-        fread(s,sizeof(struct student),1,fp);
+        fread(&temp,sizeof(struct student),1,fp);
         printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
         printf("%-4i. %-8s %-8s %-4i\n",select,s[0].name,s[0].surname,s[0].id);
         printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
