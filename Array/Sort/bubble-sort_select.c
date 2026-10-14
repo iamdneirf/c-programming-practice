@@ -15,7 +15,7 @@ int main(){
     printf("Before sort: ");
     show_all(number);
     bbsort(number);
-    printf("\nAfter sort: ");
+    printf("\nAfter sort: \n");
     show_all(number);
     return 0;
 }
