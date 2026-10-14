@@ -45,11 +45,13 @@ int main(){
             switch (choice)
             {
             case 1:
-                
+                display_all_student(1);
                 break;
             case 2:
+                display_by_index(1);
                 break;
             case 3:
+                input_student_info(1);
                 break;
             case 0:
                 printf("\nEXIT PROGRAM!\n");
