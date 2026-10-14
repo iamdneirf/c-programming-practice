@@ -83,6 +83,7 @@ void display_all_student(int){
 }
 
 void display_by_index(int){
-    int select;
+    int select,offset;
     printf("Select student by index: "); scanf("%i",&select);
+    offset = select*sizeof(struct student);
 }
