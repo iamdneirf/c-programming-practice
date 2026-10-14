@@ -33,6 +33,7 @@ void input_student_info(int a){
     }
     else{
         printf("creating file....\n");
+        printf("Enter number of student : "); scanf("%i",&number_of_student);
         fp = fopen("StRecord.txt","wb");
     }
 }
