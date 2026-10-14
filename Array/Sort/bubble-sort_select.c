@@ -11,6 +11,7 @@ int main(){
         printf("Enter the number to sort %i times\n",N); 
         printf("Enter number%i: ",i+1); scanf("%i",number[i]);
     }
+    bbsort(number);
     return 0;
 }
 
@@ -18,7 +19,11 @@ void bbsort(int *a){
     int temp;
     for(int i = 0; i < N - 1; i++){
         for(int j = 0; j < N - 1; j++){
-
+            if(a[i]>a[i+1]){
+                temp = a[i];
+                a[i] = a[i+1];
+                a[i+1] = temp;
+            }
         }
     }
 }
