@@ -7,8 +7,8 @@ struct student{
     char surname[20];
     int id;
 }s[N];
-
 void input_student_info(int);
+
 int main(){
     char ch;
     fp = fopen("StRecord.txt","rb");
@@ -35,5 +35,7 @@ void input_student_info(int a){
         printf("creating file....\n");
         fp = fopen("StRecord.txt","wb");
     }
-    printf("Enter the name: "); scanf("%s",);
+    printf("Enter name: "); scanf("%s",s[number_of_student].name);
+    printf("Enter surname: "); scanf("%s",s[number_of_student].surname);
+    printf("Enter ID: "); scanf("%i",&s[number_of_student].id);
 }
