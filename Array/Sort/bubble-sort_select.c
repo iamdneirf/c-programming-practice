@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+void show_all(int);
 void bbsort(int *);
 int N;
 
@@ -11,6 +12,7 @@ int main(){
         printf("Enter the number to sort %i times\n",N); 
         printf("Enter number%i: ",i+1); scanf("%i",number[i]);
     }
+    printf("Before sort: ");
     bbsort(number);
     return 0;
 }
