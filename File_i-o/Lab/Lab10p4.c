@@ -27,6 +27,17 @@ int main(){
             printf("3. Add student\n");
             printf("0. Exit Program");
             printf("Select number : "); scanf("%i",&choice);
+
+            switch (choice)
+            {
+            case 1:
+                
+                break;
+            
+            default:
+                break;
+            }
+            
         }
     }
     else{
