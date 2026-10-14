@@ -52,6 +52,7 @@ int main(){
             case 3:
                 break;
             case 0:
+                printf("\nEXIT PROGRAM!\n");
                 break;
             default:
                 break;
