@@ -15,8 +15,8 @@ int main(){
     char ch;
     int choice;
     fp = fopen("StRecord.txt","rb");
-    ch = getc(fp);
     if(fp != NULL){
+        ch = getc(fp);
         if(ch == EOF){
             printf("\nThis file is empty\n");
             fclose(fp);
