@@ -8,14 +8,14 @@ int main(){
     
     printf("Enter Max number: "); scanf("%i",&N);
     int number[N];
+    printf("Enter the number to sort %i times\n",N); 
     for(int i = 0; i < N; i++){
-        printf("Enter the number to sort %i times\n",N); 
         printf("Enter number%i: ",i+1); scanf("%i",&number[i]);
     }
     printf("Before sort: ");
     show_all(number);
     bbsort(number);
-    printf("After sort: ");
+    printf("\nAfter sort: ");
     show_all(number);
     return 0;
 }
