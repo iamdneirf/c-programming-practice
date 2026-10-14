@@ -68,7 +68,7 @@ void input_student_info(int a){
     if(1){
         printf("Lets add student!\n");
     }
-    else if (0){
+    else{
         printf("creating file....\n");
     }
     fp = fopen("StRecord.txt","ab");
