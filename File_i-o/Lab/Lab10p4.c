@@ -9,5 +9,9 @@ struct student{
 
 void input_student_info(int);
 int main(){
+    
+}
+
+void input_student_info(int a){
 
 }
