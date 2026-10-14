@@ -6,7 +6,7 @@ int N;
 
 int main(){
     
-    printf("Enter Max number: ",&N);
+    printf("Enter Max number: "); scanf("%i",&N);
     int number[N];
     for(int i = 0; i < N; i++){
         printf("Enter the number to sort %i times\n",N); 
