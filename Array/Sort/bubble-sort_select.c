@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 void bbsort(int *);
+int N;
 
 int main(){
-    int N;
+    
     printf("Enter Max number: ",&N);
     int number[N];
     for(int i = 0; i < N; i++){
@@ -14,5 +15,10 @@ int main(){
 }
 
 void bbsort(int *a){
+    int temp;
+    for(int i = 0; i < N - 1; i++){
+        for(int j = 0; j < N - 1; j++){
 
+        }
+    }
 }
