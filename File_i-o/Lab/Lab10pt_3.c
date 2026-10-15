@@ -16,12 +16,14 @@ int main(){
             printf("This store has empty items!\n");
         }
         else{
+            char choice;
             printf("=============== MENU ===============\n");
             printf("a. --> Add items\n");
             printf("b. --> Add stock\n");
             printf("c. --> Sell item\n");
             printf("d. --> Exit Store\n");
             printf("====================================\n");
+            printf("Select the choice: "); scanf("%c",&choice);
         }
     }
     else{
