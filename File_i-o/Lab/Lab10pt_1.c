@@ -6,7 +6,7 @@ int main(){
         return 0;
     }
 
-    int ch;
+    int ch,last_ch;
     int count_character = 0;
     int count_word = 0;
     int count_sentence = 0;
