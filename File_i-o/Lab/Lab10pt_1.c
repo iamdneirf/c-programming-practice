@@ -16,7 +16,7 @@ int main(){
         count_character++;
         
         if(ch == '\n' || ch == '\t' || ch == ' '){
-            count_word++;
+            in_word = 0;
         }
 
         if(ch == '\n'){
