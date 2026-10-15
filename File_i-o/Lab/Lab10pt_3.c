@@ -89,4 +89,5 @@ void add_stock(int a){
     while(fread(&temp[count],sizeof(struct item),1,fp) == 1){
         count++;
     }
+    fclose(fp);
 }
