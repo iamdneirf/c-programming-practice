@@ -5,7 +5,7 @@ int main(){
     FILE *fp,*fp2;
     fp = fopen(str,"r");
     printf("Enter name of file you want to write: "); scanf("%s",str2);
-    fp = fopen(str2,"w");
+    fp2 = fopen(str2,"w");
 
     while((ch = fgetc(fp)) != EOF){
 
