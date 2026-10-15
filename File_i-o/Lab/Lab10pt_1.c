@@ -10,5 +10,9 @@ int main(){
     int count_character = 0;
     int count_word = 0;
     int count_sentence = 0;
-    
+    int in_word = 0;
+
+    while((ch = fgetc(fp)) != EOF ){
+
+    }
 }
