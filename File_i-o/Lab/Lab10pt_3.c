@@ -163,7 +163,7 @@ void sell_item(int a){
     printf("%i Name: %s   Price: %i   Stock: %i\n",choice,temp[choice-1].name,temp[choice-1].price,temp[choice-1].stock);
     printf("========= total: %i =========\n",sell*(temp[choice-1].price));
 
-    fp = fopen("All_item.txt","rb");
+    fp = fopen("All_item.txt","wb");
     if(fp == NULL){
         printf("\nFile not found..\n");
         return;
