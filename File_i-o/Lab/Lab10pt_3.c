@@ -36,7 +36,7 @@ int main(){
             printf("c. --> Sell item\n");
             printf("d. --> Exit Store\n");
             printf("====================================\n");
-            printf("Select the option: "); scanf("%c",&choice);
+            printf("Select the option: "); scanf(" %c",&choice); // recommend to ' %c' before put the %c
 
             switch (choice)
             {
