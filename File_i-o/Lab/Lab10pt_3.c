@@ -5,7 +5,7 @@ struct item{
     int stock;
 }t;
 FILE *fp;
-void add_items(int);
+int add_items(int);
 void add_stock(int);
 void show_item(int);
 
@@ -64,11 +64,10 @@ void show_item(int a){
     fclose(fp);
 }
 
-void add_items(int a){
+int add_items(int a){
     fp = fopen("All_item.txt","ab");
     if(fp == NULL){
         printf("\nError...\n");
-        return 1;
     }
     printf("Enter name of item: "); scanf("%s",t.name);
     printf("Enter price of item: "); scanf("%i",&t.price);
