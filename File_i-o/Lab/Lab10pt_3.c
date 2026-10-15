@@ -6,5 +6,5 @@ struct item{
 };
 
 int main(){
-
+    FILE *fp;
 }
