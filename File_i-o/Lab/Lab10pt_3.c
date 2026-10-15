@@ -14,9 +14,10 @@ int main(){
     fp = fopen("All_item.txt","rb");
     if(fp != NULL){
         int ch;
+        fclose(fp);
         if((ch = fgetc(fp)) == EOF){
             printf("This store has empty items!\n");
-            fclose(fp);
+            
             add_items(1);
         }
     }
