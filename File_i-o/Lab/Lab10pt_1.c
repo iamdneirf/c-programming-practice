@@ -36,4 +36,10 @@ int main(){
     }
 
     fclose(fp);
+
+    printf("All character: \n",count_character);
+    printf("All word: \n",count_word);
+    printf("All sentence: \n",count_sentence);
+
+    return 0;
 }
