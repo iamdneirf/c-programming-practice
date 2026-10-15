@@ -55,7 +55,7 @@ void add_items(int a){
     fp = fopen("All_item.txt","ab");
     if(fp == NULL){
         printf("\nError...\n");
-        return 0;
+        return 1;
     }
     printf("Enter name of item: "); scanf("%s",);
 }
