@@ -8,6 +8,7 @@ FILE *fp;
 int add_items(int);
 void add_stock(int);
 void show_item(int);
+void sell_item(int);
 
 int main(){
     fp = fopen("All_item.txt","rb");
