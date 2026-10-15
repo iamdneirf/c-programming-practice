@@ -16,7 +16,6 @@ int main(){
             printf("This store has empty items!\n");
             fclose(fp);
         }
-        else{
             fclose(fp);
             char choice;
             printf("=============== MENU ===============\n");
@@ -42,7 +41,6 @@ int main(){
                 
                 break;
             }
-        }
     }
     else{
         printf("File not found!\nCreating new file....\n");
