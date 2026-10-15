@@ -57,6 +57,9 @@ int main(){
 void show_item(int a){
     int ch;
     fp = fopen("All_item.txt","rb");
+    while((ch = fgetc(fp)) != EOF){
+        printf("Name: %s    Price: %i   Stock: %i",t.name,t.price,t.stock);
+    }
 }
 
 void add_items(int a){
