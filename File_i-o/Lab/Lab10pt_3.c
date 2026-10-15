@@ -83,5 +83,6 @@ int add_items(int a){
 }
 
 void add_stock(int a){
-
+    fp = fopen("All_item.txt","rb");
+    
 }
