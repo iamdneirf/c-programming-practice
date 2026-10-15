@@ -7,5 +7,11 @@ struct item{
 
 int main(){
     FILE *fp;
-    fp = fopen("Allitem.txt","r");
+    fp = fopen("All_item.txt","r");
+    if(fp != NULL){
+
+    }
+    else{
+        
+    }
 }
