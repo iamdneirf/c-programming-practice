@@ -34,4 +34,6 @@ int main(){
     if(count_character > 0 && ch != '\n'){
         count_sentence++;
     }
+
+    fclose(fp);
 }
