@@ -23,8 +23,8 @@ int main(){
             printf("c. --> Sell item\n");
             printf("d. --> Exit Store\n");
             printf("====================================\n");
-            printf("Select the choice: "); scanf("%c",&choice);
-            
+            printf("Select the option: "); scanf("%c",&choice);
+
             switch (choice)
             {
             case 'a':
