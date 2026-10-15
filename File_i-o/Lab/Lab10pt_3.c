@@ -54,6 +54,10 @@ int main(){
     }
 }
 
+void show_item(int a){
+    
+}
+
 void add_items(int a){
     fp = fopen("All_item.txt","ab");
     if(fp == NULL){
