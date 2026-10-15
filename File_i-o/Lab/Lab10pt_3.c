@@ -17,7 +17,14 @@ int main(){
             printf("This store has empty items!\n");
             fclose(fp);
         }
-        char choice;
+    }
+    else{
+        printf("File not found!\nCreating new file....\n");
+        fp = fopen("All_item.txt","wb");
+        fclose(fp);
+        add_items(1);
+    }
+    char choice;
         fclose(fp);
         do{
             show_item(1);
@@ -46,13 +53,8 @@ int main(){
                 break;
             }
         }while(choice != 'd');
-    }
-    else{
-        printf("File not found!\nCreating new file....\n");
-        fp = fopen("All_item.txt","wb");
-        fclose(fp);
-        add_items(1);
-    }
+        
+        return 0;
 }
 
 void show_item(int a){
