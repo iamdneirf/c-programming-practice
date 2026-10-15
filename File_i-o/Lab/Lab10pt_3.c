@@ -157,6 +157,10 @@ void sell_item(int a){
     printf("========= total: %i =========\n",sell*(temp[choice-1].price));
 
     fp = fopen("All_item.txt","rb");
+    if(fp == NULL){
+        printf("\nFile not found..\n");
+        return;
+    }
     for(int i = 0; i < count;i++){
         fwrite(&temp[i],sizeof(struct item),1,fp);
     }
