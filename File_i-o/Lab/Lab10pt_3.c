@@ -5,6 +5,8 @@ struct item{
     int stock;
 };
 
+void add_items(int);
+
 int main(){
     FILE *fp;
     fp = fopen("All_item.txt","r");
@@ -15,5 +17,6 @@ int main(){
         printf("Creating file....\n");
         fp = fopen("All_item.txt","wb");
         fclose(fp);
+
     }
 }
