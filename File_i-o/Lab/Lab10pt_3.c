@@ -96,9 +96,13 @@ void add_stock(int a){
     }
 
     int choice,add;
+
+    do{
     printf("Which item you want to add stock (1,2,..): "); scanf("%i",&choice);
-    if(choice > count || choice < 0){
+    if(choice > count || choice < 1){
         printf("\nInvalid input!\n");
     }
+    }while(choice < 1 && choice > count);   
+    
     printf("How much do you want to add: "); scanf("i",&add);
 }
