@@ -3,7 +3,7 @@ struct item{
     char name[20];
     int price;
     int stock;
-};
+}t[100];
 
 void add_items(int);
 
