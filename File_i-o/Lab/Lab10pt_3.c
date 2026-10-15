@@ -62,4 +62,5 @@ void add_items(int a){
     printf("Enter stock of item: "); scanf("%i",&t.stock);
 
     fwrite(&t,sizeof(struct item),1,fp);
+    fclose(fp);
 }
