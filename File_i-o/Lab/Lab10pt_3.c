@@ -83,10 +83,10 @@ int add_items(int a){
 }
 
 void add_stock(int a){
-    int i;
+    int count;
     struct item temp[100]; 
     fp = fopen("All_item.txt","rb");
-    while(fread(&t,sizeof(struct item),1,fp) == 1){
-        
+    while(fread(&temp[count],sizeof(struct item),1,fp) == 1){
+        count++;
     }
 }
