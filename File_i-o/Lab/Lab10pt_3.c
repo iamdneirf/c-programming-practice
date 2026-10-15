@@ -10,7 +10,7 @@ void add_stock(int);
 void show_item(int);
 
 int main(){
-    fp = fopen("All_item.txt","r");
+    fp = fopen("All_item.txt","rb");
     if(fp != NULL){
         int ch;
         if((ch = fgetc(fp)) == EOF){
@@ -55,7 +55,7 @@ int main(){
 }
 
 void show_item(int a){
-    
+    fp = fopen("All_item.txt","rb");
 }
 
 void add_items(int a){
