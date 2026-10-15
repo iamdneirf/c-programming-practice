@@ -12,6 +12,9 @@ int main(){
     fp = fopen("All_item.txt","r");
     if(fp != NULL){
         int ch;
+        if((ch = fgetc(fp)) == EOF){
+            
+        }
     }
     else{
         printf("Creating file....\n");
