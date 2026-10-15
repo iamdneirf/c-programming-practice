@@ -88,6 +88,10 @@ void add_stock(int a){
     int count = 0;
     struct item temp[100]; 
     fp = fopen("All_item.txt","rb");
+    if(fp == NULL){
+        printf("\nCannot open file\n");
+        return;
+    }
     while(fread(&temp[count],sizeof(struct item),1,fp) == 1){
         count++;
     }
