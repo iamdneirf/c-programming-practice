@@ -40,7 +40,7 @@ int main(){
                 printf("Exit Store!\n");
                 break;
             default:
-                
+                printf("\nInvalid input!\n");
                 break;
             }
         }while(choice != 'd');
