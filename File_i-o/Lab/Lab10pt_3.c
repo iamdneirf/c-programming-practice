@@ -95,6 +95,7 @@ void add_stock(int a){
         return;
     }
 
-    int choice;
+    int choice,add;
     printf("Which item you want to add stock (1,2,..): "); scanf("%i",&choice);
+    printf("How much do you want to add: "); scanf("i",&add);
 }
