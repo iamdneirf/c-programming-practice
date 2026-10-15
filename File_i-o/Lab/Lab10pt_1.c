@@ -22,13 +22,6 @@ int main(){
         if(ch == '\n'){
             count_sentence++;
         }
-
-        if(ch == ' '){
-            in_word = 0;
-        }
-        else if (in_word == 0){
-            in_word = 1;
-        }
     }
 
     if(count_character > 0 && ch != '\n'){
