@@ -14,8 +14,10 @@ int main(){
         int ch;
         if((ch = fgetc(fp)) == EOF){
             printf("This store has empty items!\n");
+            fclose(fp);
         }
         else{
+            fclose(fp);
             char choice;
             printf("=============== MENU ===============\n");
             printf("a. --> Add items\n");
@@ -43,7 +45,7 @@ int main(){
         }
     }
     else{
-        printf("Creating file....\n");
+        printf("File not found!\nCreating new file....\n");
         fp = fopen("All_item.txt","wb");
         fclose(fp);
         add_items(1);
