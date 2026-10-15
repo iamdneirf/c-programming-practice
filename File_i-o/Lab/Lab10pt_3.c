@@ -17,6 +17,6 @@ int main(){
         printf("Creating file....\n");
         fp = fopen("All_item.txt","wb");
         fclose(fp);
-
+        add_items(1);
     }
 }
