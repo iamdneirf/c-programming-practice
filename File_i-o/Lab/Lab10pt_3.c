@@ -103,6 +103,9 @@ void add_stock(int a){
         printf("\nInvalid input!\n");
     }
     }while(choice < 1 && choice > count);   
-    
+
     printf("How much do you want to add: "); scanf("i",&add);
+    if(add < 1){
+        printf("\nInvalid input!\n");
+    }
 }
