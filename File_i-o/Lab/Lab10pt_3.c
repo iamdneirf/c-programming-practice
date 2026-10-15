@@ -24,6 +24,7 @@ int main(){
             printf("d. --> Exit Store\n");
             printf("====================================\n");
             printf("Select the choice: "); scanf("%c",&choice);
+            
             switch (choice)
             {
             case 'a':
