@@ -48,6 +48,7 @@ int main(){
                 add_stock(1);
                 break;
             case 'c':
+                sell_item(1);
                 break;
             case 'd':
                 printf("Exit Store!\n");
