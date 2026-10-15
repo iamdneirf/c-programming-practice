@@ -18,5 +18,9 @@ int main(){
         if(ch == '\n' || ch == '\t' || ch == ' '){
             count_word++;
         }
+
+        if(ch == '\n'){
+            count_sentence++;
+        }
     }
 }
