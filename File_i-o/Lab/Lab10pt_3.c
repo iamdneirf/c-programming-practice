@@ -29,7 +29,7 @@ int main(){
             switch (choice)
             {
             case 'a':
-                
+                add_items(1);
                 break;
             case 'b':
                 break;
