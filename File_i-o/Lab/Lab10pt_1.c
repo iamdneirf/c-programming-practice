@@ -26,7 +26,7 @@ int main(){
         if(ch == ' '){
             in_word = 0;
         }
-        else(in_word == 0){
+        else if (in_word == 0){
             in_word = 1;
         }
     }
