@@ -155,8 +155,9 @@ void sell_item(int a){
     printf("%i Name: %s   Price: %i   Stock: %i\n",choice,temp[choice-1].name,temp[choice-1].price,temp[choice-1].stock);
     printf("========= total: %i =========\n",sell*(temp[choice-1].price));
 
-    
+    fp = fopen("All_item.txt","rb");
     for(int i = 0; i < count;i++){
         fwrite(&temp[i],sizeof(struct item),1,fp);
     }
+    fclose(fp);
 }
