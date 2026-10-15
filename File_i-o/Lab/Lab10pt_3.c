@@ -111,5 +111,6 @@ void add_stock(int a){
     }
     }while(add < 1);
 
+    temp[choice-1].stock += add;
 
 }
