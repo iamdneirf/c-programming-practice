@@ -18,6 +18,10 @@ int main(){
         if(ch == '\n' || ch == '\t' || ch == ' '){
             in_word = 0;
         }
+        else if (in_word == 0){
+            in_word = 1;
+            count_word++;
+        }
 
         if(ch == '\n'){
             count_sentence++;
