@@ -14,5 +14,9 @@ int main(){
 
     while((ch = fgetc(fp)) != EOF ){
         count_character++;
+        
+        if(ch == '\n' || ch == '\t' || ch == ' '){
+            count_word++;
+        }
     }
 }
