@@ -10,4 +10,9 @@ int main(){
     while((ch = fgetc(fp)) != EOF){
         fputc(ch,fp2);
     }
+
+    fclose(fp);
+    fclose(fp2);
+
+    return 0;
 }
