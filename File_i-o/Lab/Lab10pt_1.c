@@ -31,7 +31,7 @@ int main(){
         last_ch = ch;
     }
 
-    if(count_character > 0 && ch != '\n'){
+    if(count_character > 0 && last_ch != '\n'){
         count_sentence++;
     }
 
