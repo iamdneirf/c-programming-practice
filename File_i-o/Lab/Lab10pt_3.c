@@ -150,4 +150,5 @@ void sell_item(int a){
     }
     }while(choice < 1 || choice > count);
     printf("How much do you want to sell %s: ",temp[choice-1].name); scanf("%i",&sell);
+    printf("========== Summary ==========\n");
 }
