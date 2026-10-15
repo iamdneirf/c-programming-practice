@@ -7,6 +7,7 @@ struct item{
 FILE *fp;
 void add_items(int);
 void add_stock(int);
+void show_item(int);
 
 int main(){
     fp = fopen("All_item.txt","r");
