@@ -109,8 +109,9 @@ void add_stock(int a){
 
     temp[choice-1].stock += add;
 
-    
+    fp = fopen("All_item.txt","wb");
     for(int i = 0; i < count; i++){
     fwrite(&temp[i],sizeof(struct item),1,fp);
     }
+    fclose(fp);
 }
