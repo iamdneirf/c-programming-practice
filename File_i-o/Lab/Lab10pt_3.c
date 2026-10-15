@@ -3,12 +3,11 @@ struct item{
     char name[20];
     int price;
     int stock;
-}t[100];
-
+}t;
+FILE *fp;
 void add_items(int);
 
 int main(){
-    FILE *fp;
     fp = fopen("All_item.txt","r");
     if(fp != NULL){
         int ch;
@@ -53,5 +52,5 @@ int main(){
 }
 
 void add_items(int a){
-
+    printf("Enter name of item: "); scanf("%s",);
 }
