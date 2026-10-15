@@ -13,9 +13,9 @@ void sell_item(int);
 int main(){
     fp = fopen("All_item.txt","rb");
     if(fp != NULL){
-        int ch;
-        fclose(fp);
-        if((ch = fgetc(fp)) == EOF){
+        int ch = fgetc(fp); //ทำแบบนี้ดีกว่า ค่อยไป if((ch = fgetc(fp)) == EOF)
+        fclose(fp); //ควรปิดทันทีหลังเช็คเสร็จ
+        if(ch == EOF){
             printf("This store has empty items!\n");
             add_items(1);
         }
