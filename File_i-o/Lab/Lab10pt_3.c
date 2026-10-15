@@ -12,6 +12,8 @@ int main(){
 
     }
     else{
-        
+        printf("Creating file....\n");
+        fp = fopen("All_item.txt","wb");
+        fclose(fp);
     }
 }
