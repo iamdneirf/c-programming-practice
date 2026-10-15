@@ -106,10 +106,6 @@ void add_stock(int a){
 
     do{
     printf("Enter quantity to add for %s: ",temp[choice-1].name); scanf("i",&add);
-    if(add < 1){
-        printf("\nInvalid input!\n");
-    }
-    }while(add < 1);
 
     temp[choice-1].stock += add;
 
