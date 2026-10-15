@@ -13,6 +13,6 @@ int main(){
     int in_word = 0;
 
     while((ch = fgetc(fp)) != EOF ){
-
+        count_character++;
     }
 }
