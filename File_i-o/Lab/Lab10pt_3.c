@@ -60,7 +60,7 @@ void show_item(int a){
     while(fread(&t,sizeof(struct item),1,fp) == 1){
         printf("Name: %s    Price: %i   Stock: %i",t.name,t.price,t.stock);
     }
-
+    fclose(fp);
 }
 
 void add_items(int a){
