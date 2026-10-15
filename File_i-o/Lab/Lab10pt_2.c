@@ -6,5 +6,7 @@ int main(){
     printf("Enter name of file you want to write: "); scanf("%s",str2);
     fp = fopen(str2,"w");
 
-    while()
+    while((ch = fgetc(fp)) != EOF){
+        
+    }
 }
