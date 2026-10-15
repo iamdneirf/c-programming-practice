@@ -20,6 +20,7 @@ int main(){
         char choice;
         fclose(fp);
         do{
+            show_item(1);
             printf("=============== MENU ===============\n");
             printf("a. --> Add items\n");
             printf("b. --> Add stock\n");
@@ -58,7 +59,7 @@ void show_item(int a){
     int ch;
     fp = fopen("All_item.txt","rb");
     while(fread(&t,sizeof(struct item),1,fp) == 1){
-        printf("Name: %s    Price: %i   Stock: %i",t.name,t.price,t.stock);
+        printf("Name: %s    Price: %i   Stock: %i\n",t.name,t.price,t.stock);
     }
     fclose(fp);
 }
