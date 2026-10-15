@@ -57,5 +57,7 @@ void add_items(int a){
         printf("\nError...\n");
         return 1;
     }
-    printf("Enter name of item: "); scanf("%s",);
+    printf("Enter name of item: "); scanf("%s",t.name);
+    printf("Enter price of item: "); scanf("%i",&t.price);
+    printf("Enter stock of item: "); scanf("%i",&t.stock);
 }
