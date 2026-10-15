@@ -7,4 +7,5 @@ struct item{
 
 int main(){
     FILE *fp;
+    fp = fopen("Allitem.txt","r");
 }
