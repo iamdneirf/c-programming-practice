@@ -30,4 +30,8 @@ int main(){
             in_word = 1;
         }
     }
+
+    if(count_character > 0 && ch != '\n'){
+        count_sentence++;
+    }
 }
