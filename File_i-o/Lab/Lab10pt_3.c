@@ -125,5 +125,28 @@ void add_stock(int a){
 }
 
 void sell_item(int a){
-    
+    int count = 0;
+    struct item temp[100]; 
+    fp = fopen("All_item.txt","rb");
+    if(fp == NULL){
+        printf("\nCannot open file\n");
+        return;
+    }
+    while(fread(&temp[count],sizeof(struct item),1,fp) == 1){
+        count++;
+    }
+    fclose(fp);
+    if(count == 0){
+        printf("Not found item in store...\n");
+        return;
+    }
+
+    int choice,sell;
+
+    do{
+    printf("Which item you want to add stock (1,2,..): "); scanf("%i",&choice);
+    if(choice > count || choice < 1){
+        printf("\nInvalid input!\n");
+    }
+    }while(choice < 1 || choice > count);  
 }
