@@ -13,6 +13,9 @@ int main(){
     if(fp != NULL){
         int ch;
         if((ch = fgetc(fp)) == EOF){
+
+        }
+        else{
             
         }
     }
