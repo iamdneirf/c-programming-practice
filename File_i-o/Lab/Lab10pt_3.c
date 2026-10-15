@@ -67,3 +67,7 @@ void add_items(int a){
 
     printf("Add item successfully!\n");
 }
+
+void add_stock(int a){
+    
+}
