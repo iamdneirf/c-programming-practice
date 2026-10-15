@@ -8,6 +8,6 @@ int main(){
     fp2 = fopen(str2,"w");
 
     while((ch = fgetc(fp)) != EOF){
-
+        fputc(ch,fp2);
     }
 }
