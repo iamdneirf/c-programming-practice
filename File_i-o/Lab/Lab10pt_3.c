@@ -11,7 +11,7 @@ int main(){
     FILE *fp;
     fp = fopen("All_item.txt","r");
     if(fp != NULL){
-
+        int ch;
     }
     else{
         printf("Creating file....\n");
@@ -22,5 +22,5 @@ int main(){
 }
 
 void add_items(int){
-    
+
 }
