@@ -5,4 +5,10 @@ int main(){
         printf("\nCannot open file...\n");
         return 0;
     }
+
+    int ch;
+    int count_character = 0;
+    int count_word = 0;
+    int count_sentence = 0;
+    
 }
