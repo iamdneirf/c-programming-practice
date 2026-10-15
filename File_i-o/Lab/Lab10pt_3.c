@@ -27,6 +27,7 @@ int main(){
     char choice;
         fclose(fp);
         do{
+            printf("=-=-=-=-=-=-=- Items -=-=-=-=-=-=-=-\n");
             show_item(1);
             printf("=============== MENU ===============\n");
             printf("a. --> Add items\n");
@@ -53,7 +54,7 @@ int main(){
                 break;
             }
         }while(choice != 'd');
-        
+
         return 0;
 }
 
