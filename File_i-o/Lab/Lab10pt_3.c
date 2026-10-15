@@ -123,3 +123,7 @@ void add_stock(int a){
     }
     fclose(fp);
 }
+
+void sell_item(int a){
+    
+}
