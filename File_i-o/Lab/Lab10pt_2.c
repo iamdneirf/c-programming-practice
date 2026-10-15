@@ -13,6 +13,7 @@ int main(){
 
     fclose(fp);
     fclose(fp2);
+    printf("Copy file Successful!\n");
 
     return 0;
 }
