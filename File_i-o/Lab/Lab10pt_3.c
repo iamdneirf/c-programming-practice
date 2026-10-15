@@ -94,4 +94,7 @@ void add_stock(int a){
         printf("Not found item in store...\n");
         return;
     }
+
+    int choice;
+    printf("Which item you want to add stock (1,2,..): "); scanf("%i",&choice);
 }
