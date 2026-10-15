@@ -22,5 +22,12 @@ int main(){
         if(ch == '\n'){
             count_sentence++;
         }
+
+        if(ch == ' '){
+            in_word = 0;
+        }
+        else(in_word == 0){
+            in_word = 1;
+        }
     }
 }
