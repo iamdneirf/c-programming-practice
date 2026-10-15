@@ -37,9 +37,9 @@ int main(){
 
     fclose(fp);
 
-    printf("All character: \n",count_character);
-    printf("All word: \n",count_word);
-    printf("All sentence: \n",count_sentence);
+    printf("All character: %i\n",count_character);
+    printf("All word: %i\n",count_word);
+    printf("All sentence: %i\n",count_sentence);
 
     return 0;
 }
