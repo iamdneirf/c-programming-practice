@@ -63,4 +63,6 @@ void add_items(int a){
 
     fwrite(&t,sizeof(struct item),1,fp);
     fclose(fp);
+
+    printf("Add item successfully!\n");
 }
