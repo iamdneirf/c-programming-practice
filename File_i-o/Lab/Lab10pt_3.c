@@ -43,6 +43,7 @@ int main(){
                 add_items(1);
                 break;
             case 'b':
+                add_stock(1);
                 break;
             case 'c':
                 break;
