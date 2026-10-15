@@ -55,6 +55,7 @@ int main(){
 }
 
 void show_item(int a){
+    int ch;
     fp = fopen("All_item.txt","rb");
 }
 
