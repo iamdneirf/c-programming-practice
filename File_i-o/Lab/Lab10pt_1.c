@@ -13,8 +13,11 @@ int main(){
     int in_word = 0; //0 mean out of word, 1 mean in the word :D
 
     while((ch = fgetc(fp)) != EOF ){
-        count_character++;
         
+        if(ch != ' ' || ch != '\t' || ch != '\n'){
+        count_character++;
+        }
+
         if(ch == '\n' || ch == '\t' || ch == ' '){
             in_word = 0;
         }
