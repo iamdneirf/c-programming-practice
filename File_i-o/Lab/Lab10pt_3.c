@@ -59,10 +59,10 @@ int main(){
 }
 
 void show_item(int a){
-    int ch,i;
+    int ch,i=1;
     fp = fopen("All_item.txt","rb");
     while(fread(&t,sizeof(struct item),1,fp) == 1){
-        printf("Name: %s    Price: %i    Stock: %i\n",t.name,t.price,t.stock);
+        printf("%i Name: %s   Price: %i   Stock: %i\n",i,t.name,t.price,t.stock);
         i++;
     }
     fclose(fp);
