@@ -52,6 +52,6 @@ int main(){
     }
 }
 
-void add_items(int){
+void add_items(int a){
 
 }
