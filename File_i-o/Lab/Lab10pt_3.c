@@ -27,7 +27,6 @@ int main(){
         add_items(1);
     }
     char choice;
-        fclose(fp);
         do{
             printf("=-=-=-=-=-=-=- Items -=-=-=-=-=-=-=-\n");
             show_item(1);
