@@ -26,10 +26,15 @@ int main(){
             printf("Select the choice: "); scanf("%c",&choice);
             switch (choice)
             {
-            case a:
+            case 'a':
                 
                 break;
-            
+            case 'b':
+                break;
+            case 'c':
+                break;
+            case 'd':
+                break;
             default:
                 
                 break;
