@@ -16,8 +16,9 @@ int main(){
             printf("This store has empty items!\n");
             fclose(fp);
         }
+        char choice;
+        do{
             fclose(fp);
-            char choice;
             printf("=============== MENU ===============\n");
             printf("a. --> Add items\n");
             printf("b. --> Add stock\n");
@@ -41,6 +42,7 @@ int main(){
                 
                 break;
             }
+        }while(choice != 'd');
     }
     else{
         printf("File not found!\nCreating new file....\n");
