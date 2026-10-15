@@ -21,6 +21,7 @@ int main(){
             printf("b. --> Add stock\n");
             printf("c. --> Sell item\n");
             printf("d. --> Exit Store\n");
+            printf("====================================\n");
         }
     }
     else{
