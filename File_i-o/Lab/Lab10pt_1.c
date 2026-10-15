@@ -28,6 +28,7 @@ int main(){
         if(ch == '\n'){
             count_sentence++;
         }
+        last_ch = ch;
     }
 
     if(count_character > 0 && ch != '\n'){
