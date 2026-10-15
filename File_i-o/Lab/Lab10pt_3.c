@@ -20,3 +20,7 @@ int main(){
         add_items(1);
     }
 }
+
+void add_items(int){
+    
+}
