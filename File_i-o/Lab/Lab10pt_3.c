@@ -90,4 +90,8 @@ void add_stock(int a){
         count++;
     }
     fclose(fp);
+    if(count == 0){
+        printf("Not found item in store...\n");
+        return;
+    }
 }
