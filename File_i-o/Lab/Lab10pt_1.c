@@ -10,7 +10,7 @@ int main(){
     int count_character = 0;
     int count_word = 0;
     int count_sentence = 0;
-    int in_word = 0;
+    int in_word = 0; //0 mean out of word, 1 mean in the word :D
 
     while((ch = fgetc(fp)) != EOF ){
         count_character++;
