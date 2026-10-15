@@ -17,7 +17,6 @@ int main(){
         fclose(fp);
         if((ch = fgetc(fp)) == EOF){
             printf("This store has empty items!\n");
-            
             add_items(1);
         }
     }
