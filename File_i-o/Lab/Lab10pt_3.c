@@ -17,8 +17,8 @@ int main(){
             fclose(fp);
         }
         char choice;
+        fclose(fp);
         do{
-            fclose(fp);
             printf("=============== MENU ===============\n");
             printf("a. --> Add items\n");
             printf("b. --> Add stock\n");
