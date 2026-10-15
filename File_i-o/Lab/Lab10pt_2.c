@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    char str[30],str2[30],ch;
+    char str[30],str2[30];
+    int ch;
     printf("Enter name of file you want to copy: "); scanf("%s",str);
     FILE *fp,*fp2;
     fp = fopen(str,"r");
