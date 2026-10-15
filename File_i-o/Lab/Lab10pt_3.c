@@ -37,6 +37,7 @@ int main(){
             case 'c':
                 break;
             case 'd':
+                printf("Exit Store!\n");
                 break;
             default:
                 
@@ -69,5 +70,5 @@ void add_items(int a){
 }
 
 void add_stock(int a){
-    
+
 }
