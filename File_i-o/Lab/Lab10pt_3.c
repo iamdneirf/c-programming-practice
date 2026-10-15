@@ -13,10 +13,10 @@ int main(){
     if(fp != NULL){
         int ch;
         if((ch = fgetc(fp)) == EOF){
-
+            printf("This store has empty items!\n");
         }
         else{
-            
+
         }
     }
     else{
