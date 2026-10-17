@@ -5,4 +5,5 @@ int main(){
     FILE *fp = fopen(copy_file,"r");
     printf("Enter name of new file: "); scanf("%s",new_file);
     FILE *fp2 = fopen(new_file,"w");
+    int ch;
 }
