@@ -6,4 +6,10 @@ int main(){
     printf("Enter name of new file: "); scanf("%s",new_file);
     FILE *fp2 = fopen(new_file,"w");
     int ch;
+
+    while ((ch = fgetc(fp)) == 1)
+    {
+        /* code */
+    }
+    
 }
