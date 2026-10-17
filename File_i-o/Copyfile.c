@@ -20,6 +20,7 @@ int main(){
     }
     fclose(fp);
     fclose(fp2);
+    printf("\nCopy file success!\n");
     
     return 0;
 }
