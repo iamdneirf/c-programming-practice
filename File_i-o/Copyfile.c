@@ -12,4 +12,5 @@ int main(){
         fputc(ch,new_file);
     }
     
+    return 0;
 }
