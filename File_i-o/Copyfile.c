@@ -16,7 +16,7 @@ int main(){
 
     while ((ch = fgetc(fp)) != EOF)
     {
-        fputc(ch,new_file);
+        fputc(ch,fp2);
     }
     
     return 0;
