@@ -14,7 +14,7 @@ int main(){
     FILE *fp2 = fopen(new_file,"w");
     int ch;
 
-    while ((ch = fgetc(fp)) == 1)
+    while ((ch = fgetc(fp)) != EOF)
     {
         fputc(ch,new_file);
     }
