@@ -9,7 +9,7 @@ int main(){
 
     while ((ch = fgetc(fp)) == 1)
     {
-        /* code */
+        fputc(ch,new_file);
     }
     
 }
