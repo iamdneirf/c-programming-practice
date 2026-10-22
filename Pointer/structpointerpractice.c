@@ -10,7 +10,7 @@ void ChangetempStatus(struct room *p){
 }
 
 int main(){
+    struct room my_room;
     char name[20];
     printf("Enter name of room: "); scanf("%s",name);
-
 }
