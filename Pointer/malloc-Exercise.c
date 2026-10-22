@@ -5,9 +5,9 @@ struct wallet{
 };
 
 void fakbok(struct wallet *p, int amount){
-    
+
 }
 
 int main(){
-
+    struct wallet s1;
 }
