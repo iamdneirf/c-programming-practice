@@ -22,7 +22,7 @@ int main(){
     char name[20];
     printf("Enter name of room: "); scanf("%s",name);
     strcpy(my_room.room,name);
-
+    printf("Enter AC status (1 on, 0 off) :"); scanf("%i",&my_room.AcStatus);
     printf("Enter the temperature of the room: "); scanf("%i",&my_room.temperature);
 
     my_room.AcStatus = 0; // 0 mean off , 1 mean on
