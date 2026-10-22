@@ -23,8 +23,8 @@ int main(){
     printf("Enter name of room: "); scanf("%s",name);
     strcpy(my_room.room,name);
 
-    printf("Enter the temperature of the room: "); scanf("%i",my_room.temperature);
-    
+    printf("Enter the temperature of the room: "); scanf("%i",&my_room.temperature);
+
     my_room.AcStatus = 0; // 0 mean off , 1 mean on
 
     printf("======== %s ========\n",my_room.room);
