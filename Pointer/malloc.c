@@ -15,7 +15,7 @@ int main(){
 
     for(int i = 0; i < N; i++){
         printf("Enter score of %i Student: ",i+1);
-        scanf("%f",&score[N]);
+        scanf("%f",&score[i]);
         sum += score[i];
     }
 
