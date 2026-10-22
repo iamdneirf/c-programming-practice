@@ -12,7 +12,7 @@ void fakbok(struct wallet *p, float amount){
 
 int main(){
     struct wallet mywallet;
-    stpcpy(mywallet.owner,"Mappy");
+    strcpy(mywallet.owner,"Mappy");
     mywallet.money = 0;
 
     printf("================\nOwner: %s\nBalance: %i",mywallet.owner,mywallet.money);
