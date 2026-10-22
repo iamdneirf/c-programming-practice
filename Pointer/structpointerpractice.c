@@ -17,7 +17,8 @@ int main(){
     my_room.temperature = 30;
     my_room.AcStatus = 0; // 0 mean off , 1 mean on
 
-    printf("==================\n");
+    printf("======== %s ========\n",my_room.room);
     printf("AC Status : %i",my_room.AcStatus);
+    printf("")
     ChangetempStatus(&my_room);
 }
