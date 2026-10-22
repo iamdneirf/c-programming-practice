@@ -6,7 +6,7 @@ struct wallet{
     int money;
 };
 
-void fakbok(struct wallet *p, int amount){
+void fakbok(struct wallet *p, float amount){
 
 }
 
@@ -18,4 +18,6 @@ int main(){
     printf("================\nOwner: %s\nBalance: %i",mywallet.owner,mywallet.money);
     float deposit;
     printf("\nHow many you want to deposit: "); scanf("%f",&deposit);
+
+    fakbok(&mywallet,deposit);
 }
