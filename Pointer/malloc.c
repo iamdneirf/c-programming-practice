@@ -6,4 +6,7 @@ int main(){
     printf("Enter the MAX student: "); scanf("%i",&N);
     float *score = (float*) malloc(N * sizeof(float));
     
+    if(score == NULL){
+        
+    }
 }
