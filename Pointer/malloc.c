@@ -4,4 +4,6 @@
 int main(){
     int N = 0;
     printf("Enter the MAX student: "); scanf("%i",&N);
+    float *score = (float*) malloc(N * sizeof(float));
+    
 }
