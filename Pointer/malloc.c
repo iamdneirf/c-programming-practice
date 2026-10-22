@@ -23,5 +23,6 @@ int main(){
         printf("Score of %i Student is %f\n",i+1,score[i]);
     }
     printf("Mean : %f",(sum / N));
+    free(score);
     return 0;
 }
