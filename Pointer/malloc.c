@@ -8,5 +8,6 @@ int main(){
     
     if(score == NULL){
         printf("\nCannot allocate memory\n");
+        return 1;
     }
 }
