@@ -6,5 +6,6 @@ struct room{
 };
 
 int main(){
+    char name[20];
     
 }
