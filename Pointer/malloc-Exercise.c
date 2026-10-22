@@ -7,7 +7,7 @@ struct wallet{
 };
 
 void fakbok(struct wallet *p, float amount){
-
+    p->money += amount;
 }
 
 int main(){
