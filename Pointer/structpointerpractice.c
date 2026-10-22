@@ -20,10 +20,10 @@ void ChangetempStatus(struct room *p){
 int main(){
     struct room my_room;
     char name[20];
-    printf("Enter name of room: "); scanf("%s",name);
+    printf("Enter name of room : "); scanf("%s",name);
     strcpy(my_room.room,name);
-    printf("Enter AC status (1 on, 0 off) :"); scanf("%i",&my_room.AcStatus);
-    printf("Enter the temperature of the room: "); scanf("%i",&my_room.temperature);
+    printf("Enter AC status (1 on, 0 off) : "); scanf("%i",&my_room.AcStatus);
+    printf("Enter the temperature of the room : "); scanf("%i",&my_room.temperature);
 
     printf("======== %s ========\n",my_room.room);
     printf("AC Status : %i\n",my_room.AcStatus);
