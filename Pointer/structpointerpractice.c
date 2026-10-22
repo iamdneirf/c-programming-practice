@@ -14,4 +14,5 @@ int main(){
     char name[20];
     printf("Enter name of room: "); scanf("%s",name);
     strcpy(my_room.room,name);
+    my_room.temperature = 30;
 }
