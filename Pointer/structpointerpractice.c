@@ -15,4 +15,6 @@ int main(){
     printf("Enter name of room: "); scanf("%s",name);
     strcpy(my_room.room,name);
     my_room.temperature = 30;
+
+    ChangetempStatus(&my_room);
 }
