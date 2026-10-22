@@ -4,3 +4,7 @@ struct room{
     int temperature;
     int AcStatus;
 };
+
+int main(){
+    
+}
