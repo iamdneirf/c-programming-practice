@@ -7,6 +7,6 @@ int main(){
     float *score = (float*) malloc(N * sizeof(float));
     
     if(score == NULL){
-        
+        printf("\nCannot allocate memory\n");
     }
 }
