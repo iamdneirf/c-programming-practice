@@ -22,4 +22,5 @@ int main(){
     for(int i = 0; i < N; i++){
         printf("Score of %i Student is %f\n",i+1,score[i]);
     }
+    printf("Mean : %f",(sum / N));
 }
