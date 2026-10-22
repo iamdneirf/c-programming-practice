@@ -3,7 +3,7 @@
 
 struct wallet{
     char owner[30];
-    int money;
+    float money;
 };
 
 void fakbok(struct wallet *p, float amount){
