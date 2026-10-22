@@ -18,6 +18,6 @@ int main(){
     my_room.AcStatus = 0; // 0 mean off , 1 mean on
 
     printf("==================\n");
-
+    printf("AC Status : %i",my_room.AcStatus);
     ChangetempStatus(&my_room);
 }
