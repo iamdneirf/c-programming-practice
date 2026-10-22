@@ -14,4 +14,6 @@ int main(){
     struct wallet mywallet;
     stpcpy(mywallet.owner,"Mappy");
     mywallet.money = 0;
+
+    printf("================\nOwner: %s\nBalance: %i",mywallet.owner,mywallet.money);
 }
