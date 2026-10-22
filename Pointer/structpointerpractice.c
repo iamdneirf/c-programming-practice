@@ -7,5 +7,5 @@ struct room{
 
 int main(){
     char name[20];
-    
+    printf("Enter name of room: "); scanf("%s",name);
 }
