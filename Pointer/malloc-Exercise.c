@@ -20,4 +20,7 @@ int main(){
     printf("\nHow many you want to deposit: "); scanf("%f",&deposit);
 
     fakbok(&mywallet,deposit);
+
+    printf("================\nOwner: %s\nBalance: %i",mywallet.owner,mywallet.money);
+    return 0;
 }
