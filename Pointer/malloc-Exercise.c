@@ -21,6 +21,6 @@ int main(){
 
     fakbok(&mywallet,deposit);
 
-    printf("================\nOwner: %s\nBalance: %i",mywallet.owner,mywallet.money);
+    printf("================\nOwner: %s\nBalance: %i\n",mywallet.owner,mywallet.money);
     return 0;
 }
