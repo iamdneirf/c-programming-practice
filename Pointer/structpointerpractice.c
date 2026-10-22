@@ -12,6 +12,7 @@ void ChangetempStatus(struct room *p){
     else{
         p->AcStatus = 0;
     }
+    p->temperature = 25;
 }
 
 int main(){
