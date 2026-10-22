@@ -16,4 +16,5 @@ int main(){
     mywallet.money = 0;
 
     printf("================\nOwner: %s\nBalance: %i",mywallet.owner,mywallet.money);
+    float deposit;
 }
