@@ -2,5 +2,6 @@
 #include <stdlib.h>
 
 int main(){
+    int N = 0;
     
 }
