@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+
 struct room{
     char room[20];
     int temperature;
