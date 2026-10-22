@@ -6,7 +6,12 @@ struct room{
 };
 
 void ChangetempStatus(struct room *p){
-
+    if(p->AcStatus != 1){
+        p->AcStatus = 1;
+    }
+    else{
+        p->AcStatus = 0;
+    }
 }
 
 int main(){
