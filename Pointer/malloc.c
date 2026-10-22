@@ -18,4 +18,8 @@ int main(){
         scanf("%f",&score[N]);
         sum += score[i];
     }
+
+    for(int i = 0; i < N; i++){
+        
+    }
 }
