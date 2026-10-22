@@ -27,13 +27,15 @@ int main(){
 
     printf("======== %s ========\n",my_room.room);
     printf("AC Status : %i\n",my_room.AcStatus);
-    printf("Current temperature : \n");
+    printf("Current temperature : \n",);
+    printf("====================\n");
     
     ChangetempStatus(&my_room);
 
     printf("======== %s ========\n",my_room.room);
     printf("AC Status : %i\n",my_room.AcStatus);
     printf("Current temperature : \n");
+    printf("====================\n");
 
     return 0;
 }
