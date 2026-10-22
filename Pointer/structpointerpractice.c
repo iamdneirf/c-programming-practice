@@ -25,8 +25,6 @@ int main(){
     printf("Enter AC status (1 on, 0 off) :"); scanf("%i",&my_room.AcStatus);
     printf("Enter the temperature of the room: "); scanf("%i",&my_room.temperature);
 
-    my_room.AcStatus = 0; // 0 mean off , 1 mean on
-
     printf("======== %s ========\n",my_room.room);
     printf("AC Status : %i\n",my_room.AcStatus);
     printf("Current temperature : %i\n",my_room.temperature);
