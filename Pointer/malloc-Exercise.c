@@ -12,5 +12,5 @@ void fakbok(struct wallet *p, int amount){
 
 int main(){
     struct wallet mywallet;
-    stpcpy()
+    stpcpy(mywallet.owner,"Mappy");
 }
