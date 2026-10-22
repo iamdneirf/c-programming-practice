@@ -28,4 +28,8 @@ int main(){
     printf("Current temperature : ");
     
     ChangetempStatus(&my_room);
+
+    printf("======== %s ========\n",my_room.room);
+    printf("AC Status : %i\n",my_room.AcStatus);
+    printf("Current temperature : ");
 }
