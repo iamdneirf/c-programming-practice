@@ -14,5 +14,9 @@ int main(){
     printf("Enter your class (magician,swordman,shaman) : "); scanf("%s",class);
     printf("Enter your Lv : "); scanf("%i",&lv);
 
+    strcpy(my_character.name,name);
+    strcpy(my_character.class,class);
+    my_character.lv = lv;
+
     printf("Name: %s\nClass: %s\nLv.%i",name,class,&lv);
 }
