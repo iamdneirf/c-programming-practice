@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 struct class{
     char name[30];
