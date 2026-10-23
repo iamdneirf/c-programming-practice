@@ -24,11 +24,11 @@ int main(){
     strcpy(my_character.class,class);
     my_character.lv = lv;
 
-    printf("Name: %s\nClass: %s\nLv.%i\n",name,class,lv);
+    printf("Name: %s\nClass: %s\nLv.%i\n",my_character.name,my_character.class,my_character.lv);
 
     Rebirth(&my_character);
 
-    printf("Name: %s\nClass: %s\nLv.%i\n",name,class,lv);
+    printf("Name: %s\nClass: %s\nLv.%i\n",my_character.name,my_character.class,my_character.lv);
 
     return 0;
 }
