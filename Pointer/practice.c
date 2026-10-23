@@ -12,4 +12,6 @@ int main(){
     printf("Enter name of Character : "); scanf("%s",name);
     printf("Enter your class (magician,swordman,shaman) : "); scanf("%s",class);
     printf("Enter your Lv : "); scanf("%i",&lv);
+
+    printf("Name: %s\nClass: %s\nLv.%i",name,class,&lv);
 }
