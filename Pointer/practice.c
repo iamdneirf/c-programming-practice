@@ -7,7 +7,7 @@ struct class{
 };
 
 void Rebirth(struct class *p){
-    
+    printf("\nEveryone must rebirth before start\n");
 }
 
 int main(){
