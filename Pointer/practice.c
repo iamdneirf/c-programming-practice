@@ -28,4 +28,6 @@ int main(){
     Rebirth(&my_character);
 
     printf("Name: %s\nClass: %s\nLv.%i",name,class,&lv);
+
+    return 0;
 }
