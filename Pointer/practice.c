@@ -1,4 +1,10 @@
 #include <stdio.h>
-int main(){
+
+struct class
+{
     
+};
+
+int main(){
+
 }
