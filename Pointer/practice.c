@@ -8,5 +8,5 @@ struct class{
 
 int main(){
     char name[30];
-    
+    printf("Enter name of Character : "); scanf("%s",name);
 }
