@@ -7,5 +7,6 @@ struct class{
 };
 
 int main(){
-
+    char name[30];
+    
 }
