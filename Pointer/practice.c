@@ -24,4 +24,6 @@ int main(){
     my_character.lv = lv;
 
     printf("Name: %s\nClass: %s\nLv.%i",name,class,&lv);
+
+    Rebirth(&my_character);
 }
