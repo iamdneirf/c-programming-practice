@@ -7,6 +7,7 @@ struct class{
 };
 
 int main(){
+    struct class my_character;
     char name[30],class[30];
     int lv;
     printf("Enter name of Character : "); scanf("%s",name);
