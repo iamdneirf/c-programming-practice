@@ -6,6 +6,10 @@ struct class{
     int lv;
 };
 
+void Rebirth(struct class *p){
+    
+}
+
 int main(){
     struct class my_character;
     char name[30],class[30];
