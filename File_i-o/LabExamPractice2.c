@@ -8,6 +8,9 @@ struct student{
     char color[10];
 }s[N];
 
+void show_student(int a){
+    
+}
 void add_student(int a){
     if(1){
         printf("Lets add student\n");
