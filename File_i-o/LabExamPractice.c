@@ -9,5 +9,5 @@ int main(){
     printf("Enter name of new file : "); scanf("%s",newfile);
     printf("===============================================\n");
 
-    fp = fopen("filename","r");
+    fp = fopen(filename,"r");
 }
