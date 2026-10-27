@@ -25,6 +25,8 @@ int main(){
     while((ch = fgetc(fp)) != EOF){
         fputc(fp2,ch);
     }
+    fclose(fp);
+    fclose(fp2);
 
     return 0;
 }
