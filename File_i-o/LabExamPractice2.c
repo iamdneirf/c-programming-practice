@@ -16,6 +16,9 @@ void add_student(int a){
         printf("Creating file....\n");
         fp = fopen("list_student","wb");
     }
+    for(int i = 0; i < N; i++){
+        
+    }
 }
 
 int main(){
