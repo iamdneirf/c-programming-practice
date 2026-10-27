@@ -21,6 +21,7 @@ void add_student(int a){
         printf("Enter name of Student : "); scanf("%s",s[i].name);
         printf("Enter id : "); scanf("%i",&s[i].id);
         printf("Enter favourite color : "); scanf("%s",s[i].color);
+        fclose(fp);
     }
 }
 
