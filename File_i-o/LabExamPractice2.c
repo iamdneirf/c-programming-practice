@@ -17,7 +17,7 @@ void add_student(int a){
         fp = fopen("list_student","wb");
     }
     for(int i = 0; i < N; i++){
-        
+        printf("================== %i ==================\n",i+1);
     }
 }
 
