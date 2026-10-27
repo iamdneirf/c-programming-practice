@@ -15,7 +15,11 @@ int main(){
         return 1;
     }
     fp2 = fopen(newfile,"w");
-
+    if(fp == NULL){
+        printf("\nCannot open file.....\n");
+        return 1;
+    }
+    
     while(1){
 
     }
