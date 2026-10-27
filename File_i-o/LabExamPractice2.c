@@ -1,4 +1,8 @@
 #include <stdio.h>
+void add_student(int a){
+
+}
+
 int main(){
     FILE *fp;
     int ch;
