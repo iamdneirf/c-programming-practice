@@ -19,6 +19,7 @@ void add_student(int a){
     for(int i = 0; i < N; i++){
         printf("================== %i ==================\n",i+1);
         printf("Enter name of Student : "); scanf("%s",s[i].name);
+        printf("Enter id of student : "); scanf("%i",&s[i].id);
     }
 }
 
