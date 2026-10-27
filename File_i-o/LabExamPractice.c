@@ -23,7 +23,7 @@ int main(){
     }
 
     while((ch = fgetc(fp)) != EOF){
-        fputc(fp2,ch);
+        fputc(ch,fp2);
     }
     fclose(fp);
     fclose(fp2);
