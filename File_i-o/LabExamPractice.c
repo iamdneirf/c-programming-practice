@@ -10,4 +10,5 @@ int main(){
     printf("===============================================\n");
 
     fp = fopen(filename,"r");
+    fp2 = fopen(newfile,"w");
 }
