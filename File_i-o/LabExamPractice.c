@@ -10,6 +10,10 @@ int main(){
     printf("===============================================\n");
 
     fp = fopen(filename,"r");
+    if(fp == NULL){
+        printf("\nCannot open file.....\n");
+        return 1;
+    }
     fp2 = fopen(newfile,"w");
 
     while(1){
