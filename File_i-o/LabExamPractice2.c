@@ -9,7 +9,7 @@ struct student{
 }s[N];
 
 void show_student(int a){
-    fp = fopen("list_student.txt",);
+    fp = fopen("list_student.txt","rb");
 }
 
 void add_student(int a){
