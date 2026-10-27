@@ -1,6 +1,11 @@
 #include <stdio.h>
 void add_student(int a){
-
+    if(1){
+        printf("Lets add student\n");
+    }
+    else{
+        printf("Creating file....\n");
+    }
 }
 
 int main(){
@@ -12,6 +17,5 @@ int main(){
     }
     else{
         printf("\nFile not found!\n");
-        printf("Creating file....\n");
     }
 }
