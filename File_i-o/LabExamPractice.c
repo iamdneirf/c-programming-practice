@@ -27,6 +27,7 @@ int main(){
     }
     fclose(fp);
     fclose(fp2);
+    printf("Copy file successfully!\n");
 
     return 0;
 }
