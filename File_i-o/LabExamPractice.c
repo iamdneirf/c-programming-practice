@@ -22,7 +22,7 @@ int main(){
         return 1;
     }
 
-    while(1){
+    while((ch = fgetc(fp)) != EOF){
 
     }
 }
