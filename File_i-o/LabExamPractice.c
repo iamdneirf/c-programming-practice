@@ -4,6 +4,8 @@ int main(){
     FILE *fp2;
     char filename[20];
     char newfile[20];
+    int ch;
+
     printf("============== Copy File Program ==============\n");
     printf("Enter file name you want to COPY : "); scanf("%s",filename);
     printf("Enter name of new file : "); scanf("%s",newfile);
@@ -19,7 +21,7 @@ int main(){
         printf("\nCannot open file.....\n");
         return 1;
     }
-    
+
     while(1){
 
     }
