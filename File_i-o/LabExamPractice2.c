@@ -1,7 +1,9 @@
 #include <stdio.h>
 FILE *fp;
 struct student{
-
+    int id;
+    char name[20];
+    char color[10];
 };
 
 void add_student(int a){
