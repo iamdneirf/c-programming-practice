@@ -11,4 +11,8 @@ int main(){
 
     fp = fopen(filename,"r");
     fp2 = fopen(newfile,"w");
+
+    while(1){
+
+    }
 }
