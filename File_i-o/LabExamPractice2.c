@@ -1,4 +1,6 @@
 #include <stdio.h>
+FILE *fp;
+
 void add_student(int a){
     if(1){
         printf("Lets add student\n");
@@ -10,7 +12,6 @@ void add_student(int a){
 }
 
 int main(){
-    FILE *fp;
     int ch;
     fp = fopen("list_student","r");
     if((ch = fgetc(fp)) == EOF){
