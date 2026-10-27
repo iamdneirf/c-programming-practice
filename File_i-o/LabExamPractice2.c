@@ -5,6 +5,7 @@ void add_student(int a){
     }
     else{
         printf("Creating file....\n");
+        fp = fopen("list_student","wb");
     }
 }
 
