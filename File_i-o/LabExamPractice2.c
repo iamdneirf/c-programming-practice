@@ -6,7 +6,7 @@ struct student{
     int id;
     char name[20];
     char color[10];
-};
+}s[N];
 
 void add_student(int a){
     if(1){
