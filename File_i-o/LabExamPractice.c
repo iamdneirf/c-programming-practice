@@ -8,4 +8,6 @@ int main(){
     printf("Enter file name you want to COPY : "); scanf("%s",filename);
     printf("Enter name of new file : "); scanf("%s",newfile);
     printf("===============================================\n");
+
+    fp = fopen("filename","r");
 }
