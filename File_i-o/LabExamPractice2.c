@@ -9,7 +9,7 @@ struct student{
 }s[N];
 
 void show_student(int a){
-
+    fp = fopen("list_student.txt",);
 }
 
 void add_student(int a){
@@ -18,7 +18,7 @@ void add_student(int a){
     }
     else{
         printf("Creating file....\n");
-        fp = fopen("list_student","wb");
+        fp = fopen("list_student.txt","wb");
     }
     for(int i = 0; i < N; i++){
         printf("================== %i ==================\n",i+1);
@@ -31,7 +31,7 @@ void add_student(int a){
 
 int main(){
     int ch;
-    fp = fopen("list_student","r");
+    fp = fopen("list_student.txt","r");
     if((ch = fgetc(fp)) == EOF){
         printf("\nEmpty file\n");
     }
