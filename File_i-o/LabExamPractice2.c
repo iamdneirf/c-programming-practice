@@ -1,5 +1,8 @@
 #include <stdio.h>
 FILE *fp;
+struct student{
+
+};
 
 void add_student(int a){
     if(1){
