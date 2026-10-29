@@ -12,4 +12,5 @@ int main(){
         printf("\nCannot open file...\n");
         return 1;
     }
+    struct student current;
 }
