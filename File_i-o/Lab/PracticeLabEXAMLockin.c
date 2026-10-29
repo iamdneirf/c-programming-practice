@@ -25,7 +25,7 @@ int main(){
 
         if(current.score > max_score){
             max_score = current.score;
-
+            max_student = current;
         }
     }
 
