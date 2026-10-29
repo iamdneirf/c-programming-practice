@@ -18,5 +18,6 @@ int main(){
 
     while(fscanf(fp,"%s %s %i",current.id,current.name,current.score) == 3){
         sum += current.score;
+        count++;
     }
 }
