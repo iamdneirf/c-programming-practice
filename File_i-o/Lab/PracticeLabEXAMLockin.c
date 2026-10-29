@@ -6,5 +6,5 @@ struct student{
 }student;
 
 int main(){
-
+    FILE *fp;
 }
