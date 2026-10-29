@@ -8,4 +8,8 @@ struct student{
 int main(){
     FILE *fp;
     fp = fopen("students.txt","r");
+    if(fp == NULL){
+        printf("\nCannot open file...\n");
+        return 1;
+    }
 }
