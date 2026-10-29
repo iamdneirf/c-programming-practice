@@ -30,7 +30,7 @@ int main(){
     }
 
     if(count > 0){
-        
+        printf("Sum : %.2f\n",(sum/count));
     }
 
 }
