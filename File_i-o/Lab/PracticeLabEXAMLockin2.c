@@ -29,5 +29,7 @@ int main(){
 
     if(count > 0){
         printf("Summary : %f\n",(sum / count));
+        printf("Top student : %s %s %i\n",Top_student.id,Top_student.name,Top_student.score);
     }
+    return 0;
 }
