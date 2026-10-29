@@ -17,4 +17,5 @@ int main(){
 
     float sum = 0.0;
     int count = 0;
+    float max_score = 0.0;
 }
