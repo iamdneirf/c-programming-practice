@@ -28,6 +28,6 @@ int main(){
     fclose(fp);
 
     if(count > 0){
-
+        printf("Summary : %f\n",(sum / count));
     }
 }
