@@ -23,9 +23,9 @@ int main(){
         sum += current.score;
         count++;
 
-
         if(current.score > max_score){
             max_score = current.score;
+
         }
     }
 
