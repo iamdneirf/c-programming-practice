@@ -16,7 +16,7 @@ int main(){
     int count = 0;
     float max_score = 0.0;
 
-    while(fscanf(fp,"%s %s %i",current.id,current.name,&current.score) == 3){
+    while(fscanf(fp,"%s %s %f",current.id,current.name,&current.score) == 3){
         sum += current.score;
         count++;
 
@@ -29,7 +29,7 @@ int main(){
 
     if(count > 0){
         printf("Summary : %f\n",(sum / count));
-        printf("Top student : %s %s %i\n",Top_student.id,Top_student.name,Top_student.score);
+        printf("Top student : %s %s %f\n",Top_student.id,Top_student.name,Top_student.score);
     }
     return 0;
 }
