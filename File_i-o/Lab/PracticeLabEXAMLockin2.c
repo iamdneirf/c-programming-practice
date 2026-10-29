@@ -26,4 +26,8 @@ int main(){
         }
     }
     fclose(fp);
+
+    if(count > 0){
+
+    }
 }
