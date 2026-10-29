@@ -28,8 +28,8 @@ int main(){
     fclose(fp);
 
     if(count > 0){
-        printf("Summary : %f\n",(sum / count));
-        printf("Top student : %s %s %f\n",Top_student.id,Top_student.name,Top_student.score);
+        printf("Summary : %.2f\n",(sum / count));
+        printf("Top student : %s %s %.2f\n",Top_student.id,Top_student.name,Top_student.score);
     }
     return 0;
 }
