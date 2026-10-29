@@ -13,4 +13,5 @@ int main(){
         return 1;
     }
     struct student current;
+    struct student mx_student;
 }
