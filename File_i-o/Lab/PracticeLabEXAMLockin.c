@@ -34,5 +34,5 @@ int main(){
         printf("Sum : %.2f\n",(sum/count));
         printf("Top student : %s %s %.2f\n",max_student.id,max_student.name,max_student.score);
     }
-
+    return 0;
 }
