@@ -25,4 +25,5 @@ int main(){
             Top_student = current;
         }
     }
+    fclose(fp);
 }
