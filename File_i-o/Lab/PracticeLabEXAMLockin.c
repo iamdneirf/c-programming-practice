@@ -16,4 +16,5 @@ int main(){
     struct student mx_student;
 
     float sum = 0.0;
+    int count = 0;
 }
