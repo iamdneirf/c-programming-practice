@@ -17,6 +17,6 @@ int main(){
     float max_score = 0.0;
 
     while(fscanf(fp,"%s %s %i",current.id,current.name,current.score) == 3){
-
+        sum += current.score;
     }
 }
