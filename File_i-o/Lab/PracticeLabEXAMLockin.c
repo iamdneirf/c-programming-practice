@@ -19,7 +19,7 @@ int main(){
     int count = 0;
     float max_score = 0.0;
 
-    while(fscanf(fp,"%s %s %f",current.id,current.name,current.score) == 3){
+    while(fscanf(fp,"%s %s %f",current.id,current.name,&current.score) == 3){
         sum += current.score;
         count++;
 
