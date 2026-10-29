@@ -14,4 +14,6 @@ int main(){
     }
     struct student current;
     struct student mx_student;
+
+    float sum = 0.0;
 }
