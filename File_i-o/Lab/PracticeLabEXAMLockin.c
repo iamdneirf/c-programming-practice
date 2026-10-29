@@ -7,4 +7,5 @@ struct student{
 
 int main(){
     FILE *fp;
+    fp = fopen("students.txt","r");
 }
