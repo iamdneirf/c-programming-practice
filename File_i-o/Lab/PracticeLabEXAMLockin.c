@@ -13,7 +13,7 @@ int main(){
         return 1;
     }
     struct student current;
-    struct student mx_student;
+    struct student max_student;
 
     float sum = 0.0;
     int count = 0;
