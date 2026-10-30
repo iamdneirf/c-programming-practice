@@ -32,4 +32,6 @@ int main(){
     fclose(fp);
     fclose(fp2);
     fclose(fp3);
+
+    return 0;
 }
