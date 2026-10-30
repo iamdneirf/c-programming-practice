@@ -33,5 +33,6 @@ int main(){
     fclose(fp2);
     fclose(fp3);
 
+    printf("\nAll was successfully\n");
     return 0;
 }
