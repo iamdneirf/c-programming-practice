@@ -13,6 +13,10 @@ int main(){
     fp = fopen("branch_A.txt","r");
     fp2 = fopen("branch_B.txt","r");
     fp3 = fopen("cheapest_products.txt","w");
+    if(fp == NULL || fp2 == NULL || fp3 == NULL){
+        printf("\nCannot open file\n");
+        return 1;
+    }
 
     struct item first_item;
     struct item second_item;
