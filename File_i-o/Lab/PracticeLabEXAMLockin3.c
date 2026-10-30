@@ -9,6 +9,7 @@ struct item{
 int main(){
     FILE *fp;
     FILE *fp2;
+    FILE *fp3;
     fp = fopen("branch_A.txt","r");
     fp2 = fopen("branch_B.txt","r");
 
