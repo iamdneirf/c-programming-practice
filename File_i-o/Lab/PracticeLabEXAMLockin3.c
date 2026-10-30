@@ -1,6 +1,8 @@
 #include <stdio.h>
 struct item{
-    
+    char id[5];
+    char name[20];
+    float price;
 };
 
 int main(){
