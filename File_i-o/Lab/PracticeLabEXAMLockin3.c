@@ -1,4 +1,8 @@
 #include <stdio.h>
+struct item{
+    
+};
+
 int main(){
     FILE *fp;
     FILE *fp2;
