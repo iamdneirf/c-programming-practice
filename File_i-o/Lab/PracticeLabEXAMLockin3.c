@@ -29,4 +29,7 @@ int main(){
             fprintf(fp3,"%s %s %s",first_item.id,first_item.name,first_item.price);
         }
     }
+    fclose(fp);
+    fclose(fp2);
+    fclose(fp3);
 }
