@@ -19,5 +19,8 @@ int main(){
         if(first_item.price > second_item.price){
             fprintf(fp,"%s %s %s",second_item.id,second_item.name,second_item.price);
         }
+        else if(second_item.price > first_item.price){
+
+        }
     }
 }
