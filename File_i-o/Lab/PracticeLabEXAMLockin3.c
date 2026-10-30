@@ -15,7 +15,7 @@ int main(){
     struct item first_item;
     struct item second_item;
 
-    while(fscanf(fp,"%s %s %f",first_item.id,first_item.name,&first_item.price) == 3){
-
+    while(fscanf(fp,"%s %s %f",first_item.id,first_item.name,&first_item.price) == 3 && fscanf(fp,"%s %s %f",second_item.id,second_item.name,&second_item.price) == 3){
+        
     }
 }
