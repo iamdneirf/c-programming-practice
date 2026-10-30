@@ -12,6 +12,7 @@ int main(){
     FILE *fp3;
     fp = fopen("branch_A.txt","r");
     fp2 = fopen("branch_B.txt","r");
+    fp3 = fopen("cheapest_products.txt","w");
 
     struct item first_item;
     struct item second_item;
