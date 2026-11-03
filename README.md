@@ -8,8 +8,11 @@ and prepare for my Programming Fundamentals exam as well as my future career.
 ## What's inside
 
 | Array | Array exercises |
+
 | File_i_o | Reading and writing files |
+
 | Function | Functions and loop implementations |
+
 | Pointer | Pointer exercises |
 
 More topics (like structures) will show up here as I get to them.
